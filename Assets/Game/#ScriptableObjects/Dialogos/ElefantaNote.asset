@@ -1,0 +1,153 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 58470ff17a7480749b1e7dbff19583b8, type: 3}
+  m_Name: ElefantaNote
+  m_EditorClassIdentifier: 
+  allNodes:
+  - myRect:
+      serializedVersion: 2
+      x: 230
+      y: 168
+      width: 300
+      height: 300
+    expandRect:
+      serializedVersion: 2
+      x: 231
+      y: 168
+      width: 300
+      height: 300
+    myName: Base Dialogue
+    minimized: 0
+    baseDialogueSD:
+      dialog:
+        mainText: "Mis ojos me arden. Estuve todo el d\xEDa buscando unos anteojos
+          en la orilla."
+        titleText: Nota de Elena
+        mySprite: {fileID: 0}
+        spriteDir: 0
+      connect: 1
+    answerDialogueSD:
+      dialog:
+        mainText: 
+        titleText: 
+        mySprite: {fileID: 0}
+        spriteDir: 0
+      answerText: []
+      answerConnection: 
+    actionSD:
+      ID: 0
+      connect: 0
+      nodeName: 
+    requireSD:
+      ID: 0
+      connectA: 0
+      connectB: 0
+      selectedOption: 0
+      nodeName: 
+    delaySD:
+      delayTime: 0
+      connect: 0
+    myType: 0
+    ID: 0
+  - myRect:
+      serializedVersion: 2
+      x: 534
+      y: 176
+      width: 300
+      height: 300
+    expandRect:
+      serializedVersion: 2
+      x: 534
+      y: 176
+      width: 300
+      height: 300
+    myName: Base Dialogue
+    minimized: 0
+    baseDialogueSD:
+      dialog:
+        mainText: "\xA1Y no encontr\xE9 nada! Si alguien tiene materiales para hacer
+          unos, que venga conmigo."
+        titleText: Nota de Elena
+        mySprite: {fileID: 0}
+        spriteDir: 0
+      connect: -1
+    answerDialogueSD:
+      dialog:
+        mainText: 
+        titleText: 
+        mySprite: {fileID: 0}
+        spriteDir: 0
+      answerText: []
+      answerConnection: 
+    actionSD:
+      ID: 0
+      connect: 0
+      nodeName: 
+    requireSD:
+      ID: 0
+      connectA: 0
+      connectB: 0
+      selectedOption: 0
+      nodeName: 
+    delaySD:
+      delayTime: 0
+      connect: 0
+    myType: 0
+    ID: 1
+  firstNode:
+    myRect:
+      serializedVersion: 2
+      x: 230
+      y: 168
+      width: 300
+      height: 300
+    expandRect:
+      serializedVersion: 2
+      x: 231
+      y: 168
+      width: 300
+      height: 300
+    myName: Base Dialogue
+    minimized: 0
+    baseDialogueSD:
+      dialog:
+        mainText: "Mis ojos me arden. Estuve todo el d\xEDa buscando unos anteojos
+          en la orilla."
+        titleText: Nota de Elena
+        mySprite: {fileID: 0}
+        spriteDir: 0
+      connect: 1
+    answerDialogueSD:
+      dialog:
+        mainText: 
+        titleText: 
+        mySprite: {fileID: 0}
+        spriteDir: 0
+      answerText: []
+      answerConnection: 
+    actionSD:
+      ID: 0
+      connect: 0
+      nodeName: 
+    requireSD:
+      ID: 0
+      connectA: 0
+      connectB: 0
+      selectedOption: 0
+      nodeName: 
+    delaySD:
+      delayTime: 0
+      connect: 0
+    myType: 0
+    ID: 0
+  nextDialogue: 0
+  repeatDialogue: 0

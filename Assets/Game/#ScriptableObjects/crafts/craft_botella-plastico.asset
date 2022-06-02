@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 41bc9475ec506d2488aa339c1b9e7163, type: 3}
+  m_Name: craft_botella-plastico
+  m_EditorClassIdentifier: 
+  input: {fileID: 11400000, guid: 68cee87fc58004545bfa70d11ed57bac, type: 2}
+  IsImportant_DryState: 1
+  condition_value_isDry: 1
+  IsImportant_DirtyState: 1
+  condition_value_isDirty: 0
+  output:
+  - {fileID: 11400000, guid: 626beb53d806a1143b8cc78f4031e93a, type: 2}

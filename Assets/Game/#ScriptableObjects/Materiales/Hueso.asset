@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4b28513b48b97174dace46f92c3fedc5, type: 3}
+  m_Name: Hueso
+  m_EditorClassIdentifier: 
+  name: hueso
+  element_ID: 8
+  max_stack: 10
+  description: "\xBFpodria hacer crecer un arbol en un instante si lo golpeo con
+    polvo?"
+  weight: 1
+  max_quality: 1
+  price: 0.1
+  image: {fileID: 2118958311618589481, guid: f51adbf3eab0d1140823d5be5f374700, type: 3}
+  world_model: {fileID: 0}
+  equipable_model: {fileID: 5911903736159808735, guid: aa53a4e66751f0b43855947e90e804c1, type: 3}

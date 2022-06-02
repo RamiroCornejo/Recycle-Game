@@ -1,0 +1,285 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 58470ff17a7480749b1e7dbff19583b8, type: 3}
+  m_Name: Tuto4
+  m_EditorClassIdentifier: 
+  allNodes:
+  - myRect:
+      serializedVersion: 2
+      x: 558
+      y: 270
+      width: 150
+      height: 50
+    expandRect:
+      serializedVersion: 2
+      x: 209
+      y: 100
+      width: 300
+      height: 300
+    myName: Base Dialogue
+    minimized: 1
+    baseDialogueSD:
+      dialog:
+        mainText: "Ya casi estamos, s\xF3lo nos falta guardar las botellas en el
+          lugar indicado."
+        titleText: Carlos
+        mySprite: {fileID: 0}
+        spriteDir: 0
+      connect: 1
+    answerDialogueSD:
+      dialog:
+        mainText: 
+        titleText: 
+        mySprite: {fileID: 0}
+        spriteDir: 0
+      answerText: []
+      answerConnection: 
+    actionSD:
+      ID: 0
+      connect: 0
+      nodeName: 
+    requireSD:
+      ID: 0
+      connectA: 0
+      connectB: 0
+      selectedOption: 0
+      nodeName: 
+    delaySD:
+      delayTime: 0
+      connect: 0
+    myType: 0
+    ID: 0
+  - myRect:
+      serializedVersion: 2
+      x: 742
+      y: 271
+      width: 150
+      height: 50
+    expandRect:
+      serializedVersion: 2
+      x: 574
+      y: 100
+      width: 300
+      height: 300
+    myName: Base Dialogue
+    minimized: 1
+    baseDialogueSD:
+      dialog:
+        mainText: "\xBFPod\xE9s ver esos tachos de colores de all\xE1?"
+        titleText: Carlos
+        mySprite: {fileID: 0}
+        spriteDir: 0
+      connect: 2
+    answerDialogueSD:
+      dialog:
+        mainText: 
+        titleText: 
+        mySprite: {fileID: 0}
+        spriteDir: 0
+      answerText: []
+      answerConnection: 
+    actionSD:
+      ID: 0
+      connect: 0
+      nodeName: 
+    requireSD:
+      ID: 0
+      connectA: 0
+      connectB: 0
+      selectedOption: 0
+      nodeName: 
+    delaySD:
+      delayTime: 0
+      connect: 0
+    myType: 0
+    ID: 1
+  - myRect:
+      serializedVersion: 2
+      x: 916
+      y: 275
+      width: 150
+      height: 50
+    expandRect:
+      serializedVersion: 2
+      x: 949
+      y: 107
+      width: 300
+      height: 300
+    myName: Base Dialogue
+    minimized: 1
+    baseDialogueSD:
+      dialog:
+        mainText: "Bueno, en uno de esos tachos ten\xE9s que meter las botellas."
+        titleText: Carlos
+        mySprite: {fileID: 0}
+        spriteDir: 0
+      connect: 4
+    answerDialogueSD:
+      dialog:
+        mainText: 
+        titleText: 
+        mySprite: {fileID: 0}
+        spriteDir: 0
+      answerText: []
+      answerConnection: 
+    actionSD:
+      ID: 0
+      connect: 0
+      nodeName: 
+    requireSD:
+      ID: 0
+      connectA: 0
+      connectB: 0
+      selectedOption: 0
+      nodeName: 
+    delaySD:
+      delayTime: 0
+      connect: 0
+    myType: 0
+    ID: 2
+  - myRect:
+      serializedVersion: 2
+      x: 1290
+      y: 280
+      width: 150
+      height: 50
+    expandRect:
+      serializedVersion: 2
+      x: 1309
+      y: 223
+      width: 250
+      height: 120
+    myName: ThirdTutoClear
+    minimized: 1
+    baseDialogueSD:
+      dialog:
+        mainText: 
+        titleText: 
+        mySprite: {fileID: 0}
+        spriteDir: 0
+      connect: 0
+    answerDialogueSD:
+      dialog:
+        mainText: 
+        titleText: 
+        mySprite: {fileID: 0}
+        spriteDir: 0
+      answerText: []
+      answerConnection: 
+    actionSD:
+      ID: 0
+      connect: -1
+      nodeName: ThirdTutoClear
+    requireSD:
+      ID: 0
+      connectA: 0
+      connectB: 0
+      selectedOption: 0
+      nodeName: 
+    delaySD:
+      delayTime: 0
+      connect: 0
+    myType: 2
+    ID: 3
+  - myRect:
+      serializedVersion: 2
+      x: 1102
+      y: 279
+      width: 150
+      height: 50
+    expandRect:
+      serializedVersion: 2
+      x: 621
+      y: 354
+      width: 300
+      height: 300
+    myName: Base Dialogue
+    minimized: 1
+    baseDialogueSD:
+      dialog:
+        mainText: "Cada tacho representa un tipo de residuo diferente, as\xED que
+          fijate bien cu\xE1l ser\xEDa el tacho indicado para las botellas."
+        titleText: Carlos
+        mySprite: {fileID: 0}
+        spriteDir: 0
+      connect: 3
+    answerDialogueSD:
+      dialog:
+        mainText: 
+        titleText: 
+        mySprite: {fileID: 0}
+        spriteDir: 0
+      answerText: []
+      answerConnection: 
+    actionSD:
+      ID: 0
+      connect: 0
+      nodeName: 
+    requireSD:
+      ID: 0
+      connectA: 0
+      connectB: 0
+      selectedOption: 0
+      nodeName: 
+    delaySD:
+      delayTime: 0
+      connect: 0
+    myType: 0
+    ID: 4
+  firstNode:
+    myRect:
+      serializedVersion: 2
+      x: 558
+      y: 270
+      width: 150
+      height: 50
+    expandRect:
+      serializedVersion: 2
+      x: 209
+      y: 100
+      width: 300
+      height: 300
+    myName: Base Dialogue
+    minimized: 1
+    baseDialogueSD:
+      dialog:
+        mainText: "Ya casi estamos, s\xF3lo nos falta guardar las botellas en el
+          lugar indicado."
+        titleText: Carlos
+        mySprite: {fileID: 0}
+        spriteDir: 0
+      connect: 1
+    answerDialogueSD:
+      dialog:
+        mainText: 
+        titleText: 
+        mySprite: {fileID: 0}
+        spriteDir: 0
+      answerText: []
+      answerConnection: 
+    actionSD:
+      ID: 0
+      connect: 0
+      nodeName: 
+    requireSD:
+      ID: 0
+      connectA: 0
+      connectB: 0
+      selectedOption: 0
+      nodeName: 
+    delaySD:
+      delayTime: 0
+      connect: 0
+    myType: 0
+    ID: 0
+  nextDialogue: 1
+  repeatDialogue: 0

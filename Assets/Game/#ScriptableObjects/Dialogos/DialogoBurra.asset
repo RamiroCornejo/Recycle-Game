@@ -1,0 +1,901 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 58470ff17a7480749b1e7dbff19583b8, type: 3}
+  m_Name: DialogoBurra
+  m_EditorClassIdentifier: 
+  allNodes:
+  - myRect:
+      serializedVersion: 2
+      x: 435
+      y: 106
+      width: 300
+      height: 300
+    expandRect:
+      serializedVersion: 2
+      x: 435
+      y: 106
+      width: 300
+      height: 300
+    myName: Base Dialogue
+    minimized: 0
+    baseDialogueSD:
+      dialog:
+        mainText: "Tan s\xF3lo acordarme de esos choclos, me abre el apetito de nuevo..."
+        titleText: Chula
+        mySprite: {fileID: 0}
+        spriteDir: 0
+      connect: -1
+    answerDialogueSD:
+      dialog:
+        mainText: 
+        titleText: 
+        mySprite: {fileID: 0}
+        spriteDir: 0
+      answerText: []
+      answerConnection: 
+    actionSD:
+      ID: 0
+      connect: 0
+      nodeName: 
+    requireSD:
+      ID: 0
+      connectA: 0
+      connectB: 0
+      selectedOption: 0
+      nodeName: 
+    delaySD:
+      delayTime: 0
+      connect: 0
+    myType: 0
+    ID: 0
+  - myRect:
+      serializedVersion: 2
+      x: 150
+      y: 185
+      width: 250
+      height: 150
+    expandRect:
+      serializedVersion: 2
+      x: 150
+      y: 185
+      width: 250
+      height: 150
+    myName: IsQuestCompleted
+    minimized: 0
+    baseDialogueSD:
+      dialog:
+        mainText: 
+        titleText: 
+        mySprite: {fileID: 0}
+        spriteDir: 0
+      connect: 0
+    answerDialogueSD:
+      dialog:
+        mainText: 
+        titleText: 
+        mySprite: {fileID: 0}
+        spriteDir: 0
+      answerText: []
+      answerConnection: 
+    actionSD:
+      ID: 0
+      connect: 0
+      nodeName: 
+    requireSD:
+      ID: 1
+      connectA: 0
+      connectB: 2
+      selectedOption: 2
+      nodeName: IsQuestCompleted
+    delaySD:
+      delayTime: 0
+      connect: 0
+    myType: 3
+    ID: 1
+  - myRect:
+      serializedVersion: 2
+      x: 68
+      y: 420
+      width: 300
+      height: 300
+    expandRect:
+      serializedVersion: 2
+      x: 68
+      y: 420
+      width: 300
+      height: 300
+    myName: Base Dialogue
+    minimized: 0
+    baseDialogueSD:
+      dialog:
+        mainText: "Hola, \xBFc\xF3mo est\xE1s? Yo un poco mal..."
+        titleText: Chula
+        mySprite: {fileID: 0}
+        spriteDir: 0
+      connect: 13
+    answerDialogueSD:
+      dialog:
+        mainText: 
+        titleText: 
+        mySprite: {fileID: 0}
+        spriteDir: 0
+      answerText: []
+      answerConnection: 
+    actionSD:
+      ID: 0
+      connect: 0
+      nodeName: 
+    requireSD:
+      ID: 0
+      connectA: 0
+      connectB: 0
+      selectedOption: 0
+      nodeName: 
+    delaySD:
+      delayTime: 0
+      connect: 0
+    myType: 0
+    ID: 2
+  - myRect:
+      serializedVersion: 2
+      x: 868
+      y: 367
+      width: 300
+      height: 300
+    expandRect:
+      serializedVersion: 2
+      x: 868
+      y: 367
+      width: 300
+      height: 300
+    myName: Base Dialogue
+    minimized: 0
+    baseDialogueSD:
+      dialog:
+        mainText: "\xA1Estoy tan hambrienta que me comer\xEDa hasta /item0 !"
+        titleText: Chula
+        mySprite: {fileID: 0}
+        spriteDir: 0
+      connect: 9
+    answerDialogueSD:
+      dialog:
+        mainText: 
+        titleText: 
+        mySprite: {fileID: 0}
+        spriteDir: 0
+      answerText: []
+      answerConnection: 
+    actionSD:
+      ID: 0
+      connect: 0
+      nodeName: 
+    requireSD:
+      ID: 0
+      connectA: 0
+      connectB: 0
+      selectedOption: 0
+      nodeName: 
+    delaySD:
+      delayTime: 0
+      connect: 0
+    myType: 0
+    ID: 3
+  - myRect:
+      serializedVersion: 2
+      x: 1151
+      y: 413
+      width: 250
+      height: 150
+    expandRect:
+      serializedVersion: 2
+      x: 1151
+      y: 413
+      width: 250
+      height: 150
+    myName: RequireCompleted
+    minimized: 0
+    baseDialogueSD:
+      dialog:
+        mainText: 
+        titleText: 
+        mySprite: {fileID: 0}
+        spriteDir: 0
+      connect: 0
+    answerDialogueSD:
+      dialog:
+        mainText: 
+        titleText: 
+        mySprite: {fileID: 0}
+        spriteDir: 0
+      answerText: []
+      answerConnection: 
+    actionSD:
+      ID: 0
+      connect: 0
+      nodeName: 
+    requireSD:
+      ID: 2
+      connectA: 5
+      connectB: -1
+      selectedOption: 1
+      nodeName: RequireCompleted
+    delaySD:
+      delayTime: 0
+      connect: 0
+    myType: 3
+    ID: 4
+  - myRect:
+      serializedVersion: 2
+      x: 1399
+      y: 348
+      width: 150
+      height: 50
+    expandRect:
+      serializedVersion: 2
+      x: 1399
+      y: 348
+      width: 300
+      height: 380
+    myName: Answer
+    minimized: 1
+    baseDialogueSD:
+      dialog:
+        mainText: 
+        titleText: 
+        mySprite: {fileID: 0}
+        spriteDir: 0
+      connect: 0
+    answerDialogueSD:
+      dialog:
+        mainText: "\xBFEntregar /item0 y /item1 a Turra?"
+        titleText: 
+        mySprite: {fileID: 0}
+        spriteDir: 0
+      answerText:
+      - "S\xED"
+      - No
+      answerConnection: 06000000ffffffff
+    actionSD:
+      ID: 0
+      connect: 0
+      nodeName: 
+    requireSD:
+      ID: 0
+      connectA: 0
+      connectB: 0
+      selectedOption: 0
+      nodeName: 
+    delaySD:
+      delayTime: 0
+      connect: 0
+    myType: 1
+    ID: 5
+  - myRect:
+      serializedVersion: 2
+      x: 1338
+      y: 247
+      width: 150
+      height: 50
+    expandRect:
+      serializedVersion: 2
+      x: 1338
+      y: 247
+      width: 250
+      height: 120
+    myName: RequireRemove
+    minimized: 1
+    baseDialogueSD:
+      dialog:
+        mainText: 
+        titleText: 
+        mySprite: {fileID: 0}
+        spriteDir: 0
+      connect: 0
+    answerDialogueSD:
+      dialog:
+        mainText: 
+        titleText: 
+        mySprite: {fileID: 0}
+        spriteDir: 0
+      answerText: []
+      answerConnection: 
+    actionSD:
+      ID: 0
+      connect: 7
+      nodeName: RequireRemove
+    requireSD:
+      ID: 0
+      connectA: 0
+      connectB: 0
+      selectedOption: 0
+      nodeName: 
+    delaySD:
+      delayTime: 0
+      connect: 0
+    myType: 2
+    ID: 6
+  - myRect:
+      serializedVersion: 2
+      x: 1444
+      y: 171
+      width: 150
+      height: 50
+    expandRect:
+      serializedVersion: 2
+      x: 1444
+      y: 171
+      width: 300
+      height: 300
+    myName: Base Dialogue
+    minimized: 1
+    baseDialogueSD:
+      dialog:
+        mainText: Ufff...
+        titleText: Chula
+        mySprite: {fileID: 0}
+        spriteDir: 0
+      connect: 10
+    answerDialogueSD:
+      dialog:
+        mainText: 
+        titleText: 
+        mySprite: {fileID: 0}
+        spriteDir: 0
+      answerText: []
+      answerConnection: 
+    actionSD:
+      ID: 0
+      connect: 0
+      nodeName: 
+    requireSD:
+      ID: 0
+      connectA: 0
+      connectB: 0
+      selectedOption: 0
+      nodeName: 
+    delaySD:
+      delayTime: 0
+      connect: 0
+    myType: 0
+    ID: 7
+  - myRect:
+      serializedVersion: 2
+      x: 2366
+      y: 299
+      width: 250
+      height: 120
+    expandRect:
+      serializedVersion: 2
+      x: 2366
+      y: 299
+      width: 250
+      height: 120
+    myName: GetReward
+    minimized: 0
+    baseDialogueSD:
+      dialog:
+        mainText: 
+        titleText: 
+        mySprite: {fileID: 0}
+        spriteDir: 0
+      connect: 0
+    answerDialogueSD:
+      dialog:
+        mainText: 
+        titleText: 
+        mySprite: {fileID: 0}
+        spriteDir: 0
+      answerText: []
+      answerConnection: 
+    actionSD:
+      ID: 0
+      connect: 18
+      nodeName: GetReward
+    requireSD:
+      ID: 0
+      connectA: 0
+      connectB: 0
+      selectedOption: 0
+      nodeName: 
+    delaySD:
+      delayTime: 0
+      connect: 0
+    myType: 2
+    ID: 8
+  - myRect:
+      serializedVersion: 2
+      x: 960
+      y: 308
+      width: 300
+      height: 300
+    expandRect:
+      serializedVersion: 2
+      x: 960
+      y: 308
+      width: 300
+      height: 300
+    myName: Base Dialogue
+    minimized: 0
+    baseDialogueSD:
+      dialog:
+        mainText: "\xA1Y me lo bajar\xEDa con /item1 !"
+        titleText: Chula
+        mySprite: {fileID: 0}
+        spriteDir: 0
+      connect: 4
+    answerDialogueSD:
+      dialog:
+        mainText: 
+        titleText: 
+        mySprite: {fileID: 0}
+        spriteDir: 0
+      answerText: []
+      answerConnection: 
+    actionSD:
+      ID: 0
+      connect: 0
+      nodeName: 
+    requireSD:
+      ID: 0
+      connectA: 0
+      connectB: 0
+      selectedOption: 0
+      nodeName: 
+    delaySD:
+      delayTime: 0
+      connect: 0
+    myType: 0
+    ID: 9
+  - myRect:
+      serializedVersion: 2
+      x: 1602
+      y: 166
+      width: 150
+      height: 50
+    expandRect:
+      serializedVersion: 2
+      x: 1602
+      y: 166
+      width: 300
+      height: 300
+    myName: Base Dialogue
+    minimized: 1
+    baseDialogueSD:
+      dialog:
+        mainText: "*\xD1am \xF1am \xF1am \xF1am..."
+        titleText: Chula
+        mySprite: {fileID: 0}
+        spriteDir: 0
+      connect: 11
+    answerDialogueSD:
+      dialog:
+        mainText: 
+        titleText: 
+        mySprite: {fileID: 0}
+        spriteDir: 0
+      answerText: []
+      answerConnection: 
+    actionSD:
+      ID: 0
+      connect: 0
+      nodeName: 
+    requireSD:
+      ID: 0
+      connectA: 0
+      connectB: 0
+      selectedOption: 0
+      nodeName: 
+    delaySD:
+      delayTime: 0
+      connect: 0
+    myType: 0
+    ID: 10
+  - myRect:
+      serializedVersion: 2
+      x: 1666
+      y: 245
+      width: 150
+      height: 50
+    expandRect:
+      serializedVersion: 2
+      x: 1666
+      y: 245
+      width: 300
+      height: 300
+    myName: Base Dialogue
+    minimized: 1
+    baseDialogueSD:
+      dialog:
+        mainText: '*Glup glup glup glup...'
+        titleText: Chula
+        mySprite: {fileID: 0}
+        spriteDir: 0
+      connect: 15
+    answerDialogueSD:
+      dialog:
+        mainText: 
+        titleText: 
+        mySprite: {fileID: 0}
+        spriteDir: 0
+      answerText: []
+      answerConnection: 
+    actionSD:
+      ID: 0
+      connect: 0
+      nodeName: 
+    requireSD:
+      ID: 0
+      connectA: 0
+      connectB: 0
+      selectedOption: 0
+      nodeName: 
+    delaySD:
+      delayTime: 0
+      connect: 0
+    myType: 0
+    ID: 11
+  - myRect:
+      serializedVersion: 2
+      x: 2674
+      y: 213
+      width: 300
+      height: 300
+    expandRect:
+      serializedVersion: 2
+      x: 2674
+      y: 213
+      width: 300
+      height: 300
+    myName: Base Dialogue
+    minimized: 0
+    baseDialogueSD:
+      dialog:
+        mainText: Bueno, ahora tengo que ir a prepararme para la fiesta.
+        titleText: Chula
+        mySprite: {fileID: 0}
+        spriteDir: 0
+      connect: -1
+    answerDialogueSD:
+      dialog:
+        mainText: 
+        titleText: 
+        mySprite: {fileID: 0}
+        spriteDir: 0
+      answerText: []
+      answerConnection: 
+    actionSD:
+      ID: 0
+      connect: 0
+      nodeName: 
+    requireSD:
+      ID: 0
+      connectA: 0
+      connectB: 0
+      selectedOption: 0
+      nodeName: 
+    delaySD:
+      delayTime: 0
+      connect: 0
+    myType: 0
+    ID: 12
+  - myRect:
+      serializedVersion: 2
+      x: 387
+      y: 432
+      width: 300
+      height: 300
+    expandRect:
+      serializedVersion: 2
+      x: 387
+      y: 432
+      width: 300
+      height: 300
+    myName: Base Dialogue
+    minimized: 0
+    baseDialogueSD:
+      dialog:
+        mainText: Estoy hambrienta y quiero comprar algo.
+        titleText: Chula
+        mySprite: {fileID: 0}
+        spriteDir: 0
+      connect: 14
+    answerDialogueSD:
+      dialog:
+        mainText: 
+        titleText: 
+        mySprite: {fileID: 0}
+        spriteDir: 0
+      answerText: []
+      answerConnection: 
+    actionSD:
+      ID: 0
+      connect: 0
+      nodeName: 
+    requireSD:
+      ID: 0
+      connectA: 0
+      connectB: 0
+      selectedOption: 0
+      nodeName: 
+    delaySD:
+      delayTime: 0
+      connect: 0
+    myType: 0
+    ID: 13
+  - myRect:
+      serializedVersion: 2
+      x: 655
+      y: 390
+      width: 300
+      height: 300
+    expandRect:
+      serializedVersion: 2
+      x: 655
+      y: 390
+      width: 300
+      height: 300
+    myName: Base Dialogue
+    minimized: 0
+    baseDialogueSD:
+      dialog:
+        mainText: "\xA1Pero como pod\xE9s ver, no hay nadie que atienda en este carro!"
+        titleText: Chula
+        mySprite: {fileID: 0}
+        spriteDir: 0
+      connect: 3
+    answerDialogueSD:
+      dialog:
+        mainText: 
+        titleText: 
+        mySprite: {fileID: 0}
+        spriteDir: 0
+      answerText: []
+      answerConnection: 
+    actionSD:
+      ID: 0
+      connect: 0
+      nodeName: 
+    requireSD:
+      ID: 0
+      connectA: 0
+      connectB: 0
+      selectedOption: 0
+      nodeName: 
+    delaySD:
+      delayTime: 0
+      connect: 0
+    myType: 0
+    ID: 14
+  - myRect:
+      serializedVersion: 2
+      x: 1612
+      y: 352
+      width: 150
+      height: 50
+    expandRect:
+      serializedVersion: 2
+      x: 1612
+      y: 352
+      width: 300
+      height: 300
+    myName: Base Dialogue
+    minimized: 1
+    baseDialogueSD:
+      dialog:
+        mainText: '*Buuuuurp...'
+        titleText: Chula
+        mySprite: {fileID: 0}
+        spriteDir: 0
+      connect: 16
+    answerDialogueSD:
+      dialog:
+        mainText: 
+        titleText: 
+        mySprite: {fileID: 0}
+        spriteDir: 0
+      answerText: []
+      answerConnection: 
+    actionSD:
+      ID: 0
+      connect: 0
+      nodeName: 
+    requireSD:
+      ID: 0
+      connectA: 0
+      connectB: 0
+      selectedOption: 0
+      nodeName: 
+    delaySD:
+      delayTime: 0
+      connect: 0
+    myType: 0
+    ID: 15
+  - myRect:
+      serializedVersion: 2
+      x: 1836
+      y: 345
+      width: 150
+      height: 50
+    expandRect:
+      serializedVersion: 2
+      x: 1836
+      y: 345
+      width: 300
+      height: 300
+    myName: Base Dialogue
+    minimized: 1
+    baseDialogueSD:
+      dialog:
+        mainText: "Aaaah, que rico que estuvo. \xA1Muchas gracias!"
+        titleText: Chula
+        mySprite: {fileID: 0}
+        spriteDir: 0
+      connect: 17
+    answerDialogueSD:
+      dialog:
+        mainText: 
+        titleText: 
+        mySprite: {fileID: 0}
+        spriteDir: 0
+      answerText: []
+      answerConnection: 
+    actionSD:
+      ID: 0
+      connect: 0
+      nodeName: 
+    requireSD:
+      ID: 0
+      connectA: 0
+      connectB: 0
+      selectedOption: 0
+      nodeName: 
+    delaySD:
+      delayTime: 0
+      connect: 0
+    myType: 0
+    ID: 16
+  - myRect:
+      serializedVersion: 2
+      x: 2072
+      y: 203
+      width: 150
+      height: 50
+    expandRect:
+      serializedVersion: 2
+      x: 2072
+      y: 203
+      width: 300
+      height: 300
+    myName: Base Dialogue
+    minimized: 1
+    baseDialogueSD:
+      dialog:
+        mainText: "Tom\xE1, una mochila por las molestias."
+        titleText: Chula
+        mySprite: {fileID: 0}
+        spriteDir: 0
+      connect: 8
+    answerDialogueSD:
+      dialog:
+        mainText: 
+        titleText: 
+        mySprite: {fileID: 0}
+        spriteDir: 0
+      answerText: []
+      answerConnection: 
+    actionSD:
+      ID: 0
+      connect: 0
+      nodeName: 
+    requireSD:
+      ID: 0
+      connectA: 0
+      connectB: 0
+      selectedOption: 0
+      nodeName: 
+    delaySD:
+      delayTime: 0
+      connect: 0
+    myType: 0
+    ID: 17
+  - myRect:
+      serializedVersion: 2
+      x: 2394
+      y: 397
+      width: 300
+      height: 300
+    expandRect:
+      serializedVersion: 2
+      x: 2394
+      y: 397
+      width: 300
+      height: 300
+    myName: Base Dialogue
+    minimized: 0
+    baseDialogueSD:
+      dialog:
+        mainText: "Ahora que se que los choclos m\xE1sticados est\xE1n tan buenos,
+          los voy a ir juntando."
+        titleText: Chula
+        mySprite: {fileID: 0}
+        spriteDir: 0
+      connect: 12
+    answerDialogueSD:
+      dialog:
+        mainText: 
+        titleText: 
+        mySprite: {fileID: 0}
+        spriteDir: 0
+      answerText: []
+      answerConnection: 
+    actionSD:
+      ID: 0
+      connect: 0
+      nodeName: 
+    requireSD:
+      ID: 0
+      connectA: 0
+      connectB: 0
+      selectedOption: 0
+      nodeName: 
+    delaySD:
+      delayTime: 0
+      connect: 0
+    myType: 0
+    ID: 18
+  firstNode:
+    myRect:
+      serializedVersion: 2
+      x: 150
+      y: 185
+      width: 250
+      height: 150
+    expandRect:
+      serializedVersion: 2
+      x: 150
+      y: 185
+      width: 250
+      height: 150
+    myName: IsQuestCompleted
+    minimized: 0
+    baseDialogueSD:
+      dialog:
+        mainText: 
+        titleText: 
+        mySprite: {fileID: 0}
+        spriteDir: 0
+      connect: 0
+    answerDialogueSD:
+      dialog:
+        mainText: 
+        titleText: 
+        mySprite: {fileID: 0}
+        spriteDir: 0
+      answerText: []
+      answerConnection: 
+    actionSD:
+      ID: 0
+      connect: 0
+      nodeName: 
+    requireSD:
+      ID: 1
+      connectA: 0
+      connectB: 2
+      selectedOption: 2
+      nodeName: IsQuestCompleted
+    delaySD:
+      delayTime: 0
+      connect: 0
+    myType: 3
+    ID: 1
+  nextDialogue: 0
+  repeatDialogue: 0

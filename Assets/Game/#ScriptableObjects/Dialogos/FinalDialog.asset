@@ -1,0 +1,374 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 58470ff17a7480749b1e7dbff19583b8, type: 3}
+  m_Name: FinalDialog
+  m_EditorClassIdentifier: 
+  allNodes:
+  - myRect:
+      serializedVersion: 2
+      x: 80
+      y: 171
+      width: 300
+      height: 300
+    expandRect:
+      serializedVersion: 2
+      x: 80
+      y: 171
+      width: 300
+      height: 300
+    myName: Base Dialogue
+    minimized: 0
+    baseDialogueSD:
+      dialog:
+        mainText: "\xA1Wow! \xA1Incre\xEDble, toda esta gente me cont\xF3 c\xF3mo
+          les ayudaste!"
+        titleText: Carlos
+        mySprite: {fileID: 0}
+        spriteDir: 0
+      connect: 1
+    answerDialogueSD:
+      dialog:
+        mainText: 
+        titleText: 
+        mySprite: {fileID: 0}
+        spriteDir: 0
+      answerText: []
+      answerConnection: 
+    actionSD:
+      ID: 0
+      connect: 0
+      nodeName: 
+    requireSD:
+      ID: 0
+      connectA: 0
+      connectB: 0
+      selectedOption: 0
+      nodeName: 
+    delaySD:
+      delayTime: 0
+      connect: 0
+    myType: 0
+    ID: 0
+  - myRect:
+      serializedVersion: 2
+      x: 399
+      y: 183
+      width: 150
+      height: 50
+    expandRect:
+      serializedVersion: 2
+      x: 399
+      y: 183
+      width: 300
+      height: 300
+    myName: Base Dialogue
+    minimized: 1
+    baseDialogueSD:
+      dialog:
+        mainText: Hiciste una gran primera jornada laboral.
+        titleText: Carlos
+        mySprite: {fileID: 0}
+        spriteDir: 0
+      connect: 2
+    answerDialogueSD:
+      dialog:
+        mainText: 
+        titleText: 
+        mySprite: {fileID: 0}
+        spriteDir: 0
+      answerText: []
+      answerConnection: 
+    actionSD:
+      ID: 0
+      connect: 0
+      nodeName: 
+    requireSD:
+      ID: 0
+      connectA: 0
+      connectB: 0
+      selectedOption: 0
+      nodeName: 
+    delaySD:
+      delayTime: 0
+      connect: 0
+    myType: 0
+    ID: 1
+  - myRect:
+      serializedVersion: 2
+      x: 594
+      y: 174
+      width: 150
+      height: 50
+    expandRect:
+      serializedVersion: 2
+      x: 558
+      y: 169
+      width: 300
+      height: 300
+    myName: Base Dialogue
+    minimized: 1
+    baseDialogueSD:
+      dialog:
+        mainText: "\xA1Gracias a vos, ahora la playa est\xE1 limpia!"
+        titleText: Carlos
+        mySprite: {fileID: 0}
+        spriteDir: 0
+      connect: 3
+    answerDialogueSD:
+      dialog:
+        mainText: 
+        titleText: 
+        mySprite: {fileID: 0}
+        spriteDir: 0
+      answerText: []
+      answerConnection: 
+    actionSD:
+      ID: 0
+      connect: 0
+      nodeName: 
+    requireSD:
+      ID: 0
+      connectA: 0
+      connectB: 0
+      selectedOption: 0
+      nodeName: 
+    delaySD:
+      delayTime: 0
+      connect: 0
+    myType: 0
+    ID: 2
+  - myRect:
+      serializedVersion: 2
+      x: 741
+      y: 173
+      width: 150
+      height: 50
+    expandRect:
+      serializedVersion: 2
+      x: 741
+      y: 173
+      width: 300
+      height: 300
+    myName: Base Dialogue
+    minimized: 1
+    baseDialogueSD:
+      dialog:
+        mainText: "Claro que esto es s\xF3lo el principio, salvar el mundo es algo
+          que costar\xE1 a\xF1os."
+        titleText: Carlos
+        mySprite: {fileID: 0}
+        spriteDir: 0
+      connect: 4
+    answerDialogueSD:
+      dialog:
+        mainText: 
+        titleText: 
+        mySprite: {fileID: 0}
+        spriteDir: 0
+      answerText: []
+      answerConnection: 
+    actionSD:
+      ID: 0
+      connect: 0
+      nodeName: 
+    requireSD:
+      ID: 0
+      connectA: 0
+      connectB: 0
+      selectedOption: 0
+      nodeName: 
+    delaySD:
+      delayTime: 0
+      connect: 0
+    myType: 0
+    ID: 3
+  - myRect:
+      serializedVersion: 2
+      x: 918
+      y: 250
+      width: 150
+      height: 50
+    expandRect:
+      serializedVersion: 2
+      x: 936
+      y: 172
+      width: 300
+      height: 300
+    myName: Base Dialogue
+    minimized: 1
+    baseDialogueSD:
+      dialog:
+        mainText: "\xA1Pero estoy seguro que si lo hacemos todos juntos, lo lograremos!"
+        titleText: Carlos
+        mySprite: {fileID: 0}
+        spriteDir: 0
+      connect: 5
+    answerDialogueSD:
+      dialog:
+        mainText: 
+        titleText: 
+        mySprite: {fileID: 0}
+        spriteDir: 0
+      answerText: []
+      answerConnection: 
+    actionSD:
+      ID: 0
+      connect: 0
+      nodeName: 
+    requireSD:
+      ID: 0
+      connectA: 0
+      connectB: 0
+      selectedOption: 0
+      nodeName: 
+    delaySD:
+      delayTime: 0
+      connect: 0
+    myType: 0
+    ID: 4
+  - myRect:
+      serializedVersion: 2
+      x: 1116
+      y: 244
+      width: 150
+      height: 50
+    expandRect:
+      serializedVersion: 2
+      x: 1107
+      y: 171
+      width: 300
+      height: 300
+    myName: Base Dialogue
+    minimized: 1
+    baseDialogueSD:
+      dialog:
+        mainText: Sea como sea, buen trabajo. Ahora es hora de tu fiesta de bienvenida.
+          Vamos.
+        titleText: Carlos
+        mySprite: {fileID: 0}
+        spriteDir: 0
+      connect: 6
+    answerDialogueSD:
+      dialog:
+        mainText: 
+        titleText: 
+        mySprite: {fileID: 0}
+        spriteDir: 0
+      answerText: []
+      answerConnection: 
+    actionSD:
+      ID: 0
+      connect: 0
+      nodeName: 
+    requireSD:
+      ID: 0
+      connectA: 0
+      connectB: 0
+      selectedOption: 0
+      nodeName: 
+    delaySD:
+      delayTime: 0
+      connect: 0
+    myType: 0
+    ID: 5
+  - myRect:
+      serializedVersion: 2
+      x: 1462
+      y: 202
+      width: 250
+      height: 120
+    expandRect:
+      serializedVersion: 2
+      x: 1462
+      y: 202
+      width: 250
+      height: 120
+    myName: GoToWinScreen
+    minimized: 0
+    baseDialogueSD:
+      dialog:
+        mainText: 
+        titleText: 
+        mySprite: {fileID: 0}
+        spriteDir: 0
+      connect: 0
+    answerDialogueSD:
+      dialog:
+        mainText: 
+        titleText: 
+        mySprite: {fileID: 0}
+        spriteDir: 0
+      answerText: []
+      answerConnection: 
+    actionSD:
+      ID: 0
+      connect: -1
+      nodeName: GoToWinScreen
+    requireSD:
+      ID: 0
+      connectA: 0
+      connectB: 0
+      selectedOption: 0
+      nodeName: 
+    delaySD:
+      delayTime: 0
+      connect: 0
+    myType: 2
+    ID: 6
+  firstNode:
+    myRect:
+      serializedVersion: 2
+      x: 80
+      y: 171
+      width: 300
+      height: 300
+    expandRect:
+      serializedVersion: 2
+      x: 80
+      y: 171
+      width: 300
+      height: 300
+    myName: Base Dialogue
+    minimized: 0
+    baseDialogueSD:
+      dialog:
+        mainText: "\xA1Wow! \xA1Incre\xEDble, toda esta gente me cont\xF3 c\xF3mo
+          les ayudaste!"
+        titleText: Carlos
+        mySprite: {fileID: 0}
+        spriteDir: 0
+      connect: 1
+    answerDialogueSD:
+      dialog:
+        mainText: 
+        titleText: 
+        mySprite: {fileID: 0}
+        spriteDir: 0
+      answerText: []
+      answerConnection: 
+    actionSD:
+      ID: 0
+      connect: 0
+      nodeName: 
+    requireSD:
+      ID: 0
+      connectA: 0
+      connectB: 0
+      selectedOption: 0
+      nodeName: 
+    delaySD:
+      delayTime: 0
+      connect: 0
+    myType: 0
+    ID: 0
+  nextDialogue: 0
+  repeatDialogue: 0

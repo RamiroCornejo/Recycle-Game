@@ -1,0 +1,637 @@
+fileFormatVersion: 2
+guid: 3cfff7ff409b1e849ba51f1de7a3d79f
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: b2a9591990af98743ba3ff7cf1000886, type: 3}
+  textureImporterSettings:
+    alphaSource: 1
+    mipMapMode: 0
+    enableMipMap: 1
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+    convertToNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    isReadable: 0
+    streamingMipmaps: 1
+    streamingMipmapsPriority: 0
+    vTOnly: 0
+    nPOTScale: 1
+    sRGBTexture: 1
+    spriteMode: 2
+    spriteExtrude: 1
+    spriteMeshType: 1
+    alignment: 0
+    spritePivot: {x: 0.5, y: 0.5}
+    spritePixelsToUnits: 100
+    spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+    spriteGenerateFallbackPhysicsShape: 0
+    generateCubemap: 6
+    cubemapConvolution: 0
+    seamlessCubemap: 0
+    alphaIsTransparency: 1
+    spriteTessellationDetail: -1
+    textureType: 8
+    textureShape: 1
+    singleChannelComponent: 0
+    flipbookRows: 0
+    flipbookColumns: 0
+    ignorePngGamma: 0
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 0
+    wrapV: 0
+    wrapW: 0
+    normalMap: 0
+    textureFormat: 0
+    maxTextureSize: 0
+    lightmap: 0
+    compressionQuality: 0
+    linearTexture: 0
+    grayScaleToAlpha: 0
+    rGBM: 0
+    cubemapConvolutionSteps: 0
+    cubemapConvolutionExponent: 0
+    maxTextureSizeSet: 0
+    compressionQualitySet: 0
+    textureFormatSet: 0
+    applyGammaDecoding: 0
+  spriteImportData:
+  - name: 
+    originalName: 
+    pivot: {x: 0, y: 0}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    spriteID: 
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 0, y: 0}
+  mosaicSpriteImportData: []
+  rigSpriteImportData:
+  - name: Squid
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 2142
+      width: 617
+      height: 1080
+    spriteID: d1d49f2d9869dbd46bb9a17b2b49dd02
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 4, y: 2142}
+  - name: Hand
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 2505
+      y: 1092
+      width: 848
+      height: 521
+    spriteID: 8906ff02a0885ac4a9ddb43ec329e3b2
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 2505, y: 703}
+  - name: Clip
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 3658
+      y: 1633
+      width: 388
+      height: 231
+    spriteID: 430d2ebfe5b4abc4ab16dba7c4d909d6
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 2378, y: 825}
+  - name: Contratado
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 3658
+      y: 1872
+      width: 248
+      height: 136
+    spriteID: 5a4da0db01906d5448ffb2397be48444
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 2639, y: 1556}
+  - name: Hoja
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1413
+      y: 1092
+      width: 1066
+      height: 863
+    spriteID: 05c711e9ebb58bd40bcbbcdc1529bb7d
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 706, y: 905}
+  - name: Chart
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4
+      width: 1465
+      height: 1080
+    spriteID: 89f23eb4fb5650142b1f2ef2543cd682
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -451, y: 4}
+  - name: ManoSosten
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 2860
+      y: 4
+      width: 1148
+      height: 1014
+    spriteID: db03ce1bc43adfd43a8b4e21d70e0038
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 2155, y: 4}
+  - name: Title
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 1092
+      width: 1401
+      height: 1042
+    spriteID: 3819d6f81179dc44d8e5e8a220aedd43
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -306, y: 1073}
+  - name: Tito
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 3361
+      y: 1633
+      width: 289
+      height: 426
+    spriteID: 02ec74c36bce0a846b448408fb9f561f
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 3271, y: 1007}
+  - name: Fondo
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1477
+      y: 4
+      width: 1375
+      height: 1080
+    spriteID: 13d0b1f21b5ce3e41afdb17707bad82c
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 1181, y: 4}
+  - name: Foto_bicho
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 2683
+      y: 1621
+      width: 168
+      height: 141
+    spriteID: 82efb013040702c40a451c80f9dd3790
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 1797, y: 1068}
+  - name: Foto_burra
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 2859
+      y: 1621
+      width: 164
+      height: 140
+    spriteID: 48877bfb123b21c409747ac1db3c016a
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 1855, y: 975}
+  - name: Foto_Tito
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 3031
+      y: 1621
+      width: 164
+      height: 140
+    spriteID: 023ce99d40ef42e4e93760a4e34c561e
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 1932, y: 880}
+  - name: Foto_elena
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 3914
+      y: 1872
+      width: 170
+      height: 141
+    spriteID: 80bebaffad7f382439f462b6e6edfd1f
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 3039, y: 1491}
+  - name: Foto_Roca
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 2505
+      y: 1621
+      width: 170
+      height: 141
+    spriteID: 77fca24d830c47a4299be67bff958b91
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 1731, y: 1156}
+  - name: Foto_Perro
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 2505
+      y: 1770
+      width: 164
+      height: 140
+    spriteID: c0ab47e869d79b84a9adb3f093799170
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 1317, y: 931}
+  - name: escrito
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 3361
+      y: 1092
+      width: 627
+      height: 533
+    spriteID: 9b13a32cd628db44aae5f91d1357bdfc
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 2417, y: 659}
+  platformSettings:
+  - name: DefaultTexturePlatform
+    overridden: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  - name: Standalone
+    overridden: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  mosaicLayers: 1
+  documentPivot: {x: 0, y: 0}
+  documentAlignment: 7
+  importHiddenLayers: 0
+  importedTextureWidth: 2048
+  importedTextureHeight: 2048
+  documentSize: {x: 1920, y: 1080}
+  paperDollMode: 0
+  keepDupilcateSpriteName: 0
+  spriteCategoryList:
+    categories: []
+  textureActualWidth: 4096
+  textureActualHeight: 4096
+  spritePackingTag: 
+  resliceFromLayer: 0
+  characterMode: 1
+  mosaicPSDLayers: []
+  rigPSDLayers:
+  - name: Foto_bicho
+    spriteName: Foto_bicho
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 82efb013040702c40a451c80f9dd3790
+    layerID: 140
+    mosaicPosition: {x: 2683, y: 1621}
+  - name: Foto_burra
+    spriteName: Foto_burra
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 48877bfb123b21c409747ac1db3c016a
+    layerID: 138
+    mosaicPosition: {x: 2859, y: 1621}
+  - name: Foto_Tito
+    spriteName: Foto_Tito
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 023ce99d40ef42e4e93760a4e34c561e
+    layerID: 136
+    mosaicPosition: {x: 3031, y: 1621}
+  - name: Foto_elena
+    spriteName: Foto_elena
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 80bebaffad7f382439f462b6e6edfd1f
+    layerID: 165
+    mosaicPosition: {x: 3914, y: 1872}
+  - name: Foto_Roca
+    spriteName: Foto_Roca
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 77fca24d830c47a4299be67bff958b91
+    layerID: 134
+    mosaicPosition: {x: 2505, y: 1621}
+  - name: Foto_Perro
+    spriteName: Foto_Perro
+    isGroup: 0
+    parentIndex: -1
+    spriteID: c0ab47e869d79b84a9adb3f093799170
+    layerID: 130
+    mosaicPosition: {x: 2505, y: 1770}
+  - name: Squid
+    spriteName: Squid
+    isGroup: 0
+    parentIndex: -1
+    spriteID: d1d49f2d9869dbd46bb9a17b2b49dd02
+    layerID: 107
+    mosaicPosition: {x: 4, y: 2142}
+  - name: Hand
+    spriteName: Hand
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 8906ff02a0885ac4a9ddb43ec329e3b2
+    layerID: 102
+    mosaicPosition: {x: 2505, y: 1092}
+  - name: Clip
+    spriteName: Clip
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 430d2ebfe5b4abc4ab16dba7c4d909d6
+    layerID: 97
+    mosaicPosition: {x: 3658, y: 1633}
+  - name: Contratado
+    spriteName: Contratado
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 5a4da0db01906d5448ffb2397be48444
+    layerID: 81
+    mosaicPosition: {x: 3658, y: 1872}
+  - name: escrito
+    spriteName: escrito
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 9b13a32cd628db44aae5f91d1357bdfc
+    layerID: 92
+    mosaicPosition: {x: 3361, y: 1092}
+  - name: Hoja
+    spriteName: Hoja
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 05c711e9ebb58bd40bcbbcdc1529bb7d
+    layerID: 93
+    mosaicPosition: {x: 1413, y: 1092}
+  - name: Chart
+    spriteName: Chart
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 89f23eb4fb5650142b1f2ef2543cd682
+    layerID: 86
+    mosaicPosition: {x: 4, y: 4}
+  - name: ManoSosten
+    spriteName: ManoSosten
+    isGroup: 0
+    parentIndex: -1
+    spriteID: db03ce1bc43adfd43a8b4e21d70e0038
+    layerID: 109
+    mosaicPosition: {x: 2860, y: 4}
+  - name: Title
+    spriteName: Title
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 3819d6f81179dc44d8e5e8a220aedd43
+    layerID: 76
+    mosaicPosition: {x: 4, y: 1092}
+  - name: Tito
+    spriteName: Tito
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 02ec74c36bce0a846b448408fb9f561f
+    layerID: 62
+    mosaicPosition: {x: 3361, y: 1633}
+  - name: Fondo
+    spriteName: Fondo
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 13d0b1f21b5ce3e41afdb17707bad82c
+    layerID: 65
+    mosaicPosition: {x: 1477, y: 4}
+  characterData:
+    bones: []
+    parts: []
+    dimension: {x: 0, y: 0}
+    characterGroups: []
+  generateGOHierarchy: 1
+  textureAssetName: MENU TITULO CONTRATADO Texture
+  prefabAssetName: MENU TITULO CONTRATADO Prefab
+  spriteLibAssetName: MENU TITULO CONTRATADO Sprite Lib
+  secondarySpriteTextures: []

@@ -1,0 +1,372 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 58470ff17a7480749b1e7dbff19583b8, type: 3}
+  m_Name: DialogoMaceta
+  m_EditorClassIdentifier: 
+  allNodes:
+  - myRect:
+      serializedVersion: 2
+      x: 562
+      y: 171
+      width: 150
+      height: 50
+    expandRect:
+      serializedVersion: 2
+      x: 562
+      y: 171
+      width: 300
+      height: 300
+    myName: Base Dialogue
+    minimized: 1
+    baseDialogueSD:
+      dialog:
+        mainText: Una hermosa planta.
+        titleText: 
+        mySprite: {fileID: 0}
+        spriteDir: 0
+      connect: -1
+    answerDialogueSD:
+      dialog:
+        mainText: 
+        titleText: 
+        mySprite: {fileID: 0}
+        spriteDir: 0
+      answerText: []
+      answerConnection: 
+    actionSD:
+      ID: 0
+      connect: 0
+      nodeName: 
+    requireSD:
+      ID: 0
+      connectA: 0
+      connectB: 0
+      selectedOption: 0
+      nodeName: 
+    delaySD:
+      delayTime: 0
+      connect: 0
+    myType: 0
+    ID: 0
+  - myRect:
+      serializedVersion: 2
+      x: 150
+      y: 185
+      width: 250
+      height: 150
+    expandRect:
+      serializedVersion: 2
+      x: 150
+      y: 185
+      width: 250
+      height: 150
+    myName: IsQuestCompleted
+    minimized: 0
+    baseDialogueSD:
+      dialog:
+        mainText: 
+        titleText: 
+        mySprite: {fileID: 0}
+        spriteDir: 0
+      connect: 0
+    answerDialogueSD:
+      dialog:
+        mainText: 
+        titleText: 
+        mySprite: {fileID: 0}
+        spriteDir: 0
+      answerText: []
+      answerConnection: 
+    actionSD:
+      ID: 0
+      connect: 0
+      nodeName: 
+    requireSD:
+      ID: 1
+      connectA: 0
+      connectB: 3
+      selectedOption: 2
+      nodeName: IsQuestCompleted
+    delaySD:
+      delayTime: 0
+      connect: 0
+    myType: 3
+    ID: 1
+  - myRect:
+      serializedVersion: 2
+      x: 794
+      y: 383
+      width: 150
+      height: 50
+    expandRect:
+      serializedVersion: 2
+      x: 794
+      y: 383
+      width: 300
+      height: 300
+    myName: Base Dialogue
+    minimized: 1
+    baseDialogueSD:
+      dialog:
+        mainText: "Si tan s\xF3lo tuviera una semilla y algo para hacerla crecer..."
+        titleText: 
+        mySprite: {fileID: 0}
+        spriteDir: 0
+      connect: -1
+    answerDialogueSD:
+      dialog:
+        mainText: 
+        titleText: 
+        mySprite: {fileID: 0}
+        spriteDir: 0
+      answerText: []
+      answerConnection: 
+    actionSD:
+      ID: 0
+      connect: 0
+      nodeName: 
+    requireSD:
+      ID: 0
+      connectA: 0
+      connectB: 0
+      selectedOption: 0
+      nodeName: 
+    delaySD:
+      delayTime: 0
+      connect: 0
+    myType: 0
+    ID: 2
+  - myRect:
+      serializedVersion: 2
+      x: 440
+      y: 245
+      width: 250
+      height: 150
+    expandRect:
+      serializedVersion: 2
+      x: 440
+      y: 245
+      width: 250
+      height: 150
+    myName: RequireCompleted
+    minimized: 0
+    baseDialogueSD:
+      dialog:
+        mainText: 
+        titleText: 
+        mySprite: {fileID: 0}
+        spriteDir: 0
+      connect: 0
+    answerDialogueSD:
+      dialog:
+        mainText: 
+        titleText: 
+        mySprite: {fileID: 0}
+        spriteDir: 0
+      answerText: []
+      answerConnection: 
+    actionSD:
+      ID: 0
+      connect: 0
+      nodeName: 
+    requireSD:
+      ID: 2
+      connectA: 4
+      connectB: 2
+      selectedOption: 1
+      nodeName: RequireCompleted
+    delaySD:
+      delayTime: 0
+      connect: 0
+    myType: 3
+    ID: 3
+  - myRect:
+      serializedVersion: 2
+      x: 979
+      y: 226
+      width: 150
+      height: 50
+    expandRect:
+      serializedVersion: 2
+      x: 979
+      y: 226
+      width: 300
+      height: 380
+    myName: Answer
+    minimized: 1
+    baseDialogueSD:
+      dialog:
+        mainText: 
+        titleText: 
+        mySprite: {fileID: 0}
+        spriteDir: 0
+      connect: 0
+    answerDialogueSD:
+      dialog:
+        mainText: "\xBFPlantar semilla?"
+        titleText: 
+        mySprite: {fileID: 0}
+        spriteDir: 0
+      answerText:
+      - "S\xED"
+      - No
+      answerConnection: 05000000ffffffff
+    actionSD:
+      ID: 0
+      connect: 0
+      nodeName: 
+    requireSD:
+      ID: 0
+      connectA: 0
+      connectB: 0
+      selectedOption: 0
+      nodeName: 
+    delaySD:
+      delayTime: 0
+      connect: 0
+    myType: 1
+    ID: 4
+  - myRect:
+      serializedVersion: 2
+      x: 1259
+      y: 267
+      width: 250
+      height: 120
+    expandRect:
+      serializedVersion: 2
+      x: 1259
+      y: 267
+      width: 250
+      height: 120
+    myName: RequireRemove
+    minimized: 0
+    baseDialogueSD:
+      dialog:
+        mainText: 
+        titleText: 
+        mySprite: {fileID: 0}
+        spriteDir: 0
+      connect: 0
+    answerDialogueSD:
+      dialog:
+        mainText: 
+        titleText: 
+        mySprite: {fileID: 0}
+        spriteDir: 0
+      answerText: []
+      answerConnection: 
+    actionSD:
+      ID: 0
+      connect: 6
+      nodeName: RequireRemove
+    requireSD:
+      ID: 0
+      connectA: 0
+      connectB: 0
+      selectedOption: 0
+      nodeName: 
+    delaySD:
+      delayTime: 0
+      connect: 0
+    myType: 2
+    ID: 5
+  - myRect:
+      serializedVersion: 2
+      x: 1652
+      y: 180
+      width: 150
+      height: 50
+    expandRect:
+      serializedVersion: 2
+      x: 1652
+      y: 180
+      width: 250
+      height: 120
+    myName: GetReward
+    minimized: 1
+    baseDialogueSD:
+      dialog:
+        mainText: 
+        titleText: 
+        mySprite: {fileID: 0}
+        spriteDir: 0
+      connect: 0
+    answerDialogueSD:
+      dialog:
+        mainText: 
+        titleText: 
+        mySprite: {fileID: 0}
+        spriteDir: 0
+      answerText: []
+      answerConnection: 
+    actionSD:
+      ID: 0
+      connect: 0
+      nodeName: GetReward
+    requireSD:
+      ID: 0
+      connectA: 0
+      connectB: 0
+      selectedOption: 0
+      nodeName: 
+    delaySD:
+      delayTime: 0
+      connect: 0
+    myType: 2
+    ID: 6
+  firstNode:
+    myRect:
+      serializedVersion: 2
+      x: 150
+      y: 185
+      width: 250
+      height: 150
+    expandRect:
+      serializedVersion: 2
+      x: 150
+      y: 185
+      width: 250
+      height: 150
+    myName: IsQuestCompleted
+    minimized: 0
+    baseDialogueSD:
+      dialog:
+        mainText: 
+        titleText: 
+        mySprite: {fileID: 0}
+        spriteDir: 0
+      connect: 0
+    answerDialogueSD:
+      dialog:
+        mainText: 
+        titleText: 
+        mySprite: {fileID: 0}
+        spriteDir: 0
+      answerText: []
+      answerConnection: 
+    actionSD:
+      ID: 0
+      connect: 0
+      nodeName: 
+    requireSD:
+      ID: 1
+      connectA: 0
+      connectB: 3
+      selectedOption: 2
+      nodeName: IsQuestCompleted
+    delaySD:
+      delayTime: 0
+      connect: 0
+    myType: 3
+    ID: 1
+  nextDialogue: 0
+  repeatDialogue: 0

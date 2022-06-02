@@ -1,0 +1,48 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Custom_SimpleSkybox
+  m_Shader: {fileID: 4800000, guid: 259adea3f237b9e4cb338c6a7537943b, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: 2000
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _Clouds:
+        m_Texture: {fileID: 2800000, guid: ade1ea0dbf3da8d43a2966bda7f2ff29, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _AlphaCutoff: 0.5
+    - _BotFallOff: 1
+    - _BotPosition: 0.14
+    - _Tilling: 8.12
+    - _TopFallOff: 1
+    - _TopPosition: 0.52
+    m_Colors:
+    - _Bot: {r: 0.8396226, g: 0.8396226, b: 0.8396226, a: 0}
+    - _Color: {r: 1, g: 0, b: 0, a: 1}
+    - _Color0: {r: 0, g: 0, b: 0, a: 0}
+    - _Color1: {r: 0.8494571, g: 0.89165753, b: 0.95283014, a: 0}
+    - _Color2: {r: 0.6462264, g: 0.717462, b: 1, a: 0}
+    - _Color3: {r: 0.09570109, g: 0.0047169924, b: 1, a: 0}
+    - _EmissionColor: {r: 1, g: 1, b: 1, a: 1}
+    - _Middle: {r: 1, g: 1, b: 1, a: 0}
+    - _Top: {r: 0.4605286, g: 0.64534366, b: 0.745283, a: 0}
+    - _Vector0: {r: 0.035, g: 0, b: 0, a: 0}
+  m_BuildTextureStacks: []

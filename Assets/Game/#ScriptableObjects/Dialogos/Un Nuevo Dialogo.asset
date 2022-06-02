@@ -1,0 +1,194 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 58470ff17a7480749b1e7dbff19583b8, type: 3}
+  m_Name: Un Nuevo Dialogo
+  m_EditorClassIdentifier: 
+  allNodes:
+  - myRect:
+      serializedVersion: 2
+      x: 174
+      y: 142
+      width: 300
+      height: 300
+    expandRect:
+      serializedVersion: 2
+      x: 207
+      y: 259
+      width: 300
+      height: 300
+    myName: Base Dialogue
+    minimized: 0
+    baseDialogueSD:
+      dialog:
+        mainText: Estoy re zarpado
+        titleText: El tito
+        mySprite: {fileID: 0}
+        spriteDir: 0
+      connect: 1
+    answerDialogueSD:
+      dialog:
+        mainText: 
+        titleText: 
+        mySprite: {fileID: 0}
+        spriteDir: 0
+      answerText: []
+      answerConnection: 
+    actionSD:
+      ID: 0
+      connect: 0
+      nodeName: 
+    requireSD:
+      ID: 0
+      connectA: 0
+      connectB: 0
+      selectedOption: 0
+      nodeName: 
+    delaySD:
+      delayTime: 0
+      connect: 0
+    myType: 0
+    ID: 0
+  - myRect:
+      serializedVersion: 2
+      x: 576
+      y: 141
+      width: 300
+      height: 300
+    expandRect:
+      serializedVersion: 2
+      x: 700
+      y: 285
+      width: 300
+      height: 300
+    myName: Base Dialogue
+    minimized: 0
+    baseDialogueSD:
+      dialog:
+        mainText: "Y vos que mir\xE1s gil?"
+        titleText: El tito
+        mySprite: {fileID: 0}
+        spriteDir: 0
+      connect: 2
+    answerDialogueSD:
+      dialog:
+        mainText: 
+        titleText: 
+        mySprite: {fileID: 0}
+        spriteDir: 0
+      answerText: []
+      answerConnection: 
+    actionSD:
+      ID: 0
+      connect: 0
+      nodeName: 
+    requireSD:
+      ID: 0
+      connectA: 0
+      connectB: 0
+      selectedOption: 0
+      nodeName: 
+    delaySD:
+      delayTime: 0
+      connect: 0
+    myType: 0
+    ID: 1
+  - myRect:
+      serializedVersion: 2
+      x: 961
+      y: 207
+      width: 300
+      height: 300
+    expandRect:
+      serializedVersion: 2
+      x: 953
+      y: 261
+      width: 300
+      height: 300
+    myName: Base Dialogue
+    minimized: 0
+    baseDialogueSD:
+      dialog:
+        mainText: Dame la billetera
+        titleText: El tito
+        mySprite: {fileID: 0}
+        spriteDir: 0
+      connect: -1
+    answerDialogueSD:
+      dialog:
+        mainText: 
+        titleText: 
+        mySprite: {fileID: 0}
+        spriteDir: 0
+      answerText: []
+      answerConnection: 
+    actionSD:
+      ID: 0
+      connect: 0
+      nodeName: 
+    requireSD:
+      ID: 0
+      connectA: 0
+      connectB: 0
+      selectedOption: 0
+      nodeName: 
+    delaySD:
+      delayTime: 0
+      connect: 0
+    myType: 0
+    ID: 2
+  firstNode:
+    myRect:
+      serializedVersion: 2
+      x: 174
+      y: 142
+      width: 300
+      height: 300
+    expandRect:
+      serializedVersion: 2
+      x: 207
+      y: 259
+      width: 300
+      height: 300
+    myName: Base Dialogue
+    minimized: 0
+    baseDialogueSD:
+      dialog:
+        mainText: Estoy re zarpado
+        titleText: El tito
+        mySprite: {fileID: 0}
+        spriteDir: 0
+      connect: 1
+    answerDialogueSD:
+      dialog:
+        mainText: 
+        titleText: 
+        mySprite: {fileID: 0}
+        spriteDir: 0
+      answerText: []
+      answerConnection: 
+    actionSD:
+      ID: 0
+      connect: 0
+      nodeName: 
+    requireSD:
+      ID: 0
+      connectA: 0
+      connectB: 0
+      selectedOption: 0
+      nodeName: 
+    delaySD:
+      delayTime: 0
+      connect: 0
+    myType: 0
+    ID: 0
+  nextDialogue: 0
+  repeatDialogue: 0

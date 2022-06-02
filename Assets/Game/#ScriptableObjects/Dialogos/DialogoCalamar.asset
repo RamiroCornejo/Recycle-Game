@@ -1,0 +1,813 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 58470ff17a7480749b1e7dbff19583b8, type: 3}
+  m_Name: DialogoCalamar
+  m_EditorClassIdentifier: 
+  allNodes:
+  - myRect:
+      serializedVersion: 2
+      x: 562
+      y: 171
+      width: 150
+      height: 50
+    expandRect:
+      serializedVersion: 2
+      x: 562
+      y: 171
+      width: 300
+      height: 300
+    myName: Base Dialogue
+    minimized: 1
+    baseDialogueSD:
+      dialog:
+        mainText: Nunca me voy a cansar de este sabor.
+        titleText: Carlos
+        mySprite: {fileID: 0}
+        spriteDir: 0
+      connect: -1
+    answerDialogueSD:
+      dialog:
+        mainText: 
+        titleText: 
+        mySprite: {fileID: 0}
+        spriteDir: 0
+      answerText: []
+      answerConnection: 
+    actionSD:
+      ID: 0
+      connect: 0
+      nodeName: 
+    requireSD:
+      ID: 0
+      connectA: 0
+      connectB: 0
+      selectedOption: 0
+      nodeName: 
+    delaySD:
+      delayTime: 0
+      connect: 0
+    myType: 0
+    ID: 0
+  - myRect:
+      serializedVersion: 2
+      x: 150
+      y: 185
+      width: 250
+      height: 150
+    expandRect:
+      serializedVersion: 2
+      x: 150
+      y: 185
+      width: 250
+      height: 150
+    myName: IsQuestCompleted
+    minimized: 0
+    baseDialogueSD:
+      dialog:
+        mainText: 
+        titleText: 
+        mySprite: {fileID: 0}
+        spriteDir: 0
+      connect: 0
+    answerDialogueSD:
+      dialog:
+        mainText: 
+        titleText: 
+        mySprite: {fileID: 0}
+        spriteDir: 0
+      answerText: []
+      answerConnection: 
+    actionSD:
+      ID: 0
+      connect: 0
+      nodeName: 
+    requireSD:
+      ID: 1
+      connectA: 0
+      connectB: 2
+      selectedOption: 2
+      nodeName: IsQuestCompleted
+    delaySD:
+      delayTime: 0
+      connect: 0
+    myType: 3
+    ID: 1
+  - myRect:
+      serializedVersion: 2
+      x: 357
+      y: 347
+      width: 150
+      height: 50
+    expandRect:
+      serializedVersion: 2
+      x: 357
+      y: 347
+      width: 300
+      height: 300
+    myName: Base Dialogue
+    minimized: 1
+    baseDialogueSD:
+      dialog:
+        mainText: Aaaah, odio mi vida.
+        titleText: Carlos
+        mySprite: {fileID: 0}
+        spriteDir: 0
+      connect: 3
+    answerDialogueSD:
+      dialog:
+        mainText: 
+        titleText: 
+        mySprite: {fileID: 0}
+        spriteDir: 0
+      answerText: []
+      answerConnection: 
+    actionSD:
+      ID: 0
+      connect: 0
+      nodeName: 
+    requireSD:
+      ID: 0
+      connectA: 0
+      connectB: 0
+      selectedOption: 0
+      nodeName: 
+    delaySD:
+      delayTime: 0
+      connect: 0
+    myType: 0
+    ID: 2
+  - myRect:
+      serializedVersion: 2
+      x: 396
+      y: 446
+      width: 150
+      height: 50
+    expandRect:
+      serializedVersion: 2
+      x: 396
+      y: 446
+      width: 300
+      height: 300
+    myName: Base Dialogue
+    minimized: 1
+    baseDialogueSD:
+      dialog:
+        mainText: La gente no sabe tratar SUS residuos...
+        titleText: Carlos
+        mySprite: {fileID: 0}
+        spriteDir: 0
+      connect: 14
+    answerDialogueSD:
+      dialog:
+        mainText: 
+        titleText: 
+        mySprite: {fileID: 0}
+        spriteDir: 0
+      answerText: []
+      answerConnection: 
+    actionSD:
+      ID: 0
+      connect: 0
+      nodeName: 
+    requireSD:
+      ID: 0
+      connectA: 0
+      connectB: 0
+      selectedOption: 0
+      nodeName: 
+    delaySD:
+      delayTime: 0
+      connect: 0
+    myType: 0
+    ID: 3
+  - myRect:
+      serializedVersion: 2
+      x: 981
+      y: 353
+      width: 150
+      height: 50
+    expandRect:
+      serializedVersion: 2
+      x: 981
+      y: 353
+      width: 250
+      height: 150
+    myName: RequireCompleted
+    minimized: 1
+    baseDialogueSD:
+      dialog:
+        mainText: 
+        titleText: 
+        mySprite: {fileID: 0}
+        spriteDir: 0
+      connect: 0
+    answerDialogueSD:
+      dialog:
+        mainText: 
+        titleText: 
+        mySprite: {fileID: 0}
+        spriteDir: 0
+      answerText: []
+      answerConnection: 
+    actionSD:
+      ID: 0
+      connect: 0
+      nodeName: 
+    requireSD:
+      ID: 2
+      connectA: 5
+      connectB: -1
+      selectedOption: 1
+      nodeName: RequireCompleted
+    delaySD:
+      delayTime: 0
+      connect: 0
+    myType: 3
+    ID: 4
+  - myRect:
+      serializedVersion: 2
+      x: 1151
+      y: 354
+      width: 150
+      height: 50
+    expandRect:
+      serializedVersion: 2
+      x: 1151
+      y: 354
+      width: 300
+      height: 380
+    myName: Answer
+    minimized: 1
+    baseDialogueSD:
+      dialog:
+        mainText: 
+        titleText: 
+        mySprite: {fileID: 0}
+        spriteDir: 0
+      connect: 0
+    answerDialogueSD:
+      dialog:
+        mainText: "\xBFEntregar /item0 a Carlos?"
+        titleText: 
+        mySprite: {fileID: 0}
+        spriteDir: 0
+      answerText:
+      - "S\xED"
+      - No
+      answerConnection: 06000000ffffffff
+    actionSD:
+      ID: 0
+      connect: 0
+      nodeName: 
+    requireSD:
+      ID: 0
+      connectA: 0
+      connectB: 0
+      selectedOption: 0
+      nodeName: 
+    delaySD:
+      delayTime: 0
+      connect: 0
+    myType: 1
+    ID: 5
+  - myRect:
+      serializedVersion: 2
+      x: 1289
+      y: 264
+      width: 150
+      height: 50
+    expandRect:
+      serializedVersion: 2
+      x: 1289
+      y: 264
+      width: 250
+      height: 120
+    myName: RequireRemove
+    minimized: 1
+    baseDialogueSD:
+      dialog:
+        mainText: 
+        titleText: 
+        mySprite: {fileID: 0}
+        spriteDir: 0
+      connect: 0
+    answerDialogueSD:
+      dialog:
+        mainText: 
+        titleText: 
+        mySprite: {fileID: 0}
+        spriteDir: 0
+      answerText: []
+      answerConnection: 
+    actionSD:
+      ID: 0
+      connect: 7
+      nodeName: RequireRemove
+    requireSD:
+      ID: 0
+      connectA: 0
+      connectB: 0
+      selectedOption: 0
+      nodeName: 
+    delaySD:
+      delayTime: 0
+      connect: 0
+    myType: 2
+    ID: 6
+  - myRect:
+      serializedVersion: 2
+      x: 1462
+      y: 244
+      width: 150
+      height: 50
+    expandRect:
+      serializedVersion: 2
+      x: 1462
+      y: 244
+      width: 300
+      height: 300
+    myName: Base Dialogue
+    minimized: 1
+    baseDialogueSD:
+      dialog:
+        mainText: "\xA1\xBFEH?! \xA1\xBFEse es el nuevo jugo de moda?!"
+        titleText: Carlos
+        mySprite: {fileID: 0}
+        spriteDir: 0
+      connect: 11
+    answerDialogueSD:
+      dialog:
+        mainText: 
+        titleText: 
+        mySprite: {fileID: 0}
+        spriteDir: 0
+      answerText: []
+      answerConnection: 
+    actionSD:
+      ID: 0
+      connect: 0
+      nodeName: 
+    requireSD:
+      ID: 0
+      connectA: 0
+      connectB: 0
+      selectedOption: 0
+      nodeName: 
+    delaySD:
+      delayTime: 0
+      connect: 0
+    myType: 0
+    ID: 7
+  - myRect:
+      serializedVersion: 2
+      x: 2035
+      y: 284
+      width: 150
+      height: 50
+    expandRect:
+      serializedVersion: 2
+      x: 2035
+      y: 284
+      width: 250
+      height: 120
+    myName: GetReward
+    minimized: 1
+    baseDialogueSD:
+      dialog:
+        mainText: 
+        titleText: 
+        mySprite: {fileID: 0}
+        spriteDir: 0
+      connect: 0
+    answerDialogueSD:
+      dialog:
+        mainText: 
+        titleText: 
+        mySprite: {fileID: 0}
+        spriteDir: 0
+      answerText: []
+      answerConnection: 
+    actionSD:
+      ID: 0
+      connect: 16
+      nodeName: GetReward
+    requireSD:
+      ID: 0
+      connectA: 0
+      connectB: 0
+      selectedOption: 0
+      nodeName: 
+    delaySD:
+      delayTime: 0
+      connect: 0
+    myType: 2
+    ID: 8
+  - myRect:
+      serializedVersion: 2
+      x: 659
+      y: 384
+      width: 150
+      height: 50
+    expandRect:
+      serializedVersion: 2
+      x: 659
+      y: 384
+      width: 300
+      height: 300
+    myName: Base Dialogue
+    minimized: 1
+    baseDialogueSD:
+      dialog:
+        mainText: "\xA1Encima hace un calor del infierno!"
+        titleText: Carlos
+        mySprite: {fileID: 0}
+        spriteDir: 0
+      connect: 15
+    answerDialogueSD:
+      dialog:
+        mainText: 
+        titleText: 
+        mySprite: {fileID: 0}
+        spriteDir: 0
+      answerText: []
+      answerConnection: 
+    actionSD:
+      ID: 0
+      connect: 0
+      nodeName: 
+    requireSD:
+      ID: 0
+      connectA: 0
+      connectB: 0
+      selectedOption: 0
+      nodeName: 
+    delaySD:
+      delayTime: 0
+      connect: 0
+    myType: 0
+    ID: 9
+  - myRect:
+      serializedVersion: 2
+      x: 930
+      y: 418
+      width: 150
+      height: 50
+    expandRect:
+      serializedVersion: 2
+      x: 930
+      y: 418
+      width: 300
+      height: 300
+    myName: Base Dialogue
+    minimized: 1
+    baseDialogueSD:
+      dialog:
+        mainText: "Uno de esos jugos nuevos de manzana me vendr\xEDan de maravilla."
+        titleText: Carlos
+        mySprite: {fileID: 0}
+        spriteDir: 0
+      connect: 4
+    answerDialogueSD:
+      dialog:
+        mainText: 
+        titleText: 
+        mySprite: {fileID: 0}
+        spriteDir: 0
+      answerText: []
+      answerConnection: 
+    actionSD:
+      ID: 0
+      connect: 0
+      nodeName: 
+    requireSD:
+      ID: 0
+      connectA: 0
+      connectB: 0
+      selectedOption: 0
+      nodeName: 
+    delaySD:
+      delayTime: 0
+      connect: 0
+    myType: 0
+    ID: 10
+  - myRect:
+      serializedVersion: 2
+      x: 1652
+      y: 244
+      width: 150
+      height: 50
+    expandRect:
+      serializedVersion: 2
+      x: 1652
+      y: 244
+      width: 300
+      height: 300
+    myName: Base Dialogue
+    minimized: 1
+    baseDialogueSD:
+      dialog:
+        mainText: "........... Es riqu\xEDsimo, justo como dec\xEDan. Muchas gracias."
+        titleText: Carlos
+        mySprite: {fileID: 0}
+        spriteDir: 0
+      connect: 12
+    answerDialogueSD:
+      dialog:
+        mainText: 
+        titleText: 
+        mySprite: {fileID: 0}
+        spriteDir: 0
+      answerText: []
+      answerConnection: 
+    actionSD:
+      ID: 0
+      connect: 0
+      nodeName: 
+    requireSD:
+      ID: 0
+      connectA: 0
+      connectB: 0
+      selectedOption: 0
+      nodeName: 
+    delaySD:
+      delayTime: 0
+      connect: 0
+    myType: 0
+    ID: 11
+  - myRect:
+      serializedVersion: 2
+      x: 1860
+      y: 268
+      width: 150
+      height: 50
+    expandRect:
+      serializedVersion: 2
+      x: 1860
+      y: 268
+      width: 300
+      height: 300
+    myName: Base Dialogue
+    minimized: 1
+    baseDialogueSD:
+      dialog:
+        mainText: "Tom\xE1, son unos guantes, con tener solo 2 me basta."
+        titleText: Carlos
+        mySprite: {fileID: 0}
+        spriteDir: 0
+      connect: 8
+    answerDialogueSD:
+      dialog:
+        mainText: 
+        titleText: 
+        mySprite: {fileID: 0}
+        spriteDir: 0
+      answerText: []
+      answerConnection: 
+    actionSD:
+      ID: 0
+      connect: 0
+      nodeName: 
+    requireSD:
+      ID: 0
+      connectA: 0
+      connectB: 0
+      selectedOption: 0
+      nodeName: 
+    delaySD:
+      delayTime: 0
+      connect: 0
+    myType: 0
+    ID: 12
+  - myRect:
+      serializedVersion: 2
+      x: 2413
+      y: 316
+      width: 150
+      height: 50
+    expandRect:
+      serializedVersion: 2
+      x: 2413
+      y: 316
+      width: 300
+      height: 300
+    myName: Base Dialogue
+    minimized: 1
+    baseDialogueSD:
+      dialog:
+        mainText: "Ahora, si me permit\xEDs, voy a seguir disfrutando de mi jugo."
+        titleText: Carlos
+        mySprite: {fileID: 0}
+        spriteDir: 0
+      connect: -1
+    answerDialogueSD:
+      dialog:
+        mainText: 
+        titleText: 
+        mySprite: {fileID: 0}
+        spriteDir: 0
+      answerText: []
+      answerConnection: 
+    actionSD:
+      ID: 0
+      connect: 0
+      nodeName: 
+    requireSD:
+      ID: 0
+      connectA: 0
+      connectB: 0
+      selectedOption: 0
+      nodeName: 
+    delaySD:
+      delayTime: 0
+      connect: 0
+    myType: 0
+    ID: 13
+  - myRect:
+      serializedVersion: 2
+      x: 554
+      y: 445
+      width: 150
+      height: 50
+    expandRect:
+      serializedVersion: 2
+      x: 554
+      y: 445
+      width: 300
+      height: 300
+    myName: Base Dialogue
+    minimized: 1
+    baseDialogueSD:
+      dialog:
+        mainText: "\xA1Y encima nosotros tenemos que limpiar su desastre!"
+        titleText: Carlos
+        mySprite: {fileID: 0}
+        spriteDir: 0
+      connect: 9
+    answerDialogueSD:
+      dialog:
+        mainText: 
+        titleText: 
+        mySprite: {fileID: 0}
+        spriteDir: 0
+      answerText: []
+      answerConnection: 
+    actionSD:
+      ID: 0
+      connect: 0
+      nodeName: 
+    requireSD:
+      ID: 0
+      connectA: 0
+      connectB: 0
+      selectedOption: 0
+      nodeName: 
+    delaySD:
+      delayTime: 0
+      connect: 0
+    myType: 0
+    ID: 14
+  - myRect:
+      serializedVersion: 2
+      x: 768
+      y: 454
+      width: 150
+      height: 50
+    expandRect:
+      serializedVersion: 2
+      x: 768
+      y: 454
+      width: 300
+      height: 300
+    myName: Base Dialogue
+    minimized: 1
+    baseDialogueSD:
+      dialog:
+        mainText: ...
+        titleText: Carlos
+        mySprite: {fileID: 0}
+        spriteDir: 0
+      connect: 10
+    answerDialogueSD:
+      dialog:
+        mainText: 
+        titleText: 
+        mySprite: {fileID: 0}
+        spriteDir: 0
+      answerText: []
+      answerConnection: 
+    actionSD:
+      ID: 0
+      connect: 0
+      nodeName: 
+    requireSD:
+      ID: 0
+      connectA: 0
+      connectB: 0
+      selectedOption: 0
+      nodeName: 
+    delaySD:
+      delayTime: 0
+      connect: 0
+    myType: 0
+    ID: 15
+  - myRect:
+      serializedVersion: 2
+      x: 2224
+      y: 320
+      width: 150
+      height: 50
+    expandRect:
+      serializedVersion: 2
+      x: 2224
+      y: 320
+      width: 300
+      height: 300
+    myName: Base Dialogue
+    minimized: 1
+    baseDialogueSD:
+      dialog:
+        mainText: "Te servir\xE1n por si quer\xE9s agarrar cosas que te puedan lastimar
+          las manos."
+        titleText: Carlos
+        mySprite: {fileID: 0}
+        spriteDir: 0
+      connect: 13
+    answerDialogueSD:
+      dialog:
+        mainText: 
+        titleText: 
+        mySprite: {fileID: 0}
+        spriteDir: 0
+      answerText: []
+      answerConnection: 
+    actionSD:
+      ID: 0
+      connect: 0
+      nodeName: 
+    requireSD:
+      ID: 0
+      connectA: 0
+      connectB: 0
+      selectedOption: 0
+      nodeName: 
+    delaySD:
+      delayTime: 0
+      connect: 0
+    myType: 0
+    ID: 16
+  firstNode:
+    myRect:
+      serializedVersion: 2
+      x: 150
+      y: 185
+      width: 250
+      height: 150
+    expandRect:
+      serializedVersion: 2
+      x: 150
+      y: 185
+      width: 250
+      height: 150
+    myName: IsQuestCompleted
+    minimized: 0
+    baseDialogueSD:
+      dialog:
+        mainText: 
+        titleText: 
+        mySprite: {fileID: 0}
+        spriteDir: 0
+      connect: 0
+    answerDialogueSD:
+      dialog:
+        mainText: 
+        titleText: 
+        mySprite: {fileID: 0}
+        spriteDir: 0
+      answerText: []
+      answerConnection: 
+    actionSD:
+      ID: 0
+      connect: 0
+      nodeName: 
+    requireSD:
+      ID: 1
+      connectA: 0
+      connectB: 2
+      selectedOption: 2
+      nodeName: IsQuestCompleted
+    delaySD:
+      delayTime: 0
+      connect: 0
+    myType: 3
+    ID: 1
+  nextDialogue: 0
+  repeatDialogue: 0

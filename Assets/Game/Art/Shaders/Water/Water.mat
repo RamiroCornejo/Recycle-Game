@@ -1,0 +1,89 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Water
+  m_Shader: {fileID: 4800000, guid: cf89527358accfa4faf185c25df6f7ec, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 2
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _Flow:
+        m_Texture: {fileID: 2800000, guid: 4d4c077f8f2f4cb4687dfe3b429dbf46, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _TextureSample0:
+        m_Texture: {fileID: 2800000, guid: 6a5f0d676d5f0ce42beed78a8e27f67c, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _texcoord:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _AlphaCutoff: 0.5
+    - _CollisionDistance: 2
+    - _CollisionDistance1: 0.1
+    - _Distance: 2.07
+    - _DotsAmmount: 0.1111544
+    - _DotsInteract: 0.1138413
+    - _DotsScale: 5
+    - _EdgeLength: 15
+    - _Float0: 1.68
+    - _Float1: 38.6
+    - _Float2: 0.02
+    - _Float3: 2
+    - _Float4: 6
+    - _Float5: 2.55
+    - _Float6: 0
+    - _Float7: 51.8
+    - _FlowMapIntensity: 0.914
+    - _FoamScale: 29.3
+    - _FoamScale1: 62.81
+    - _Freq: 15.69
+    - _FreqX: 0.07
+    - _HighestWave: 0.1
+    - _IntensityX: 0.055
+    - _InteractDotsScale: -2.02
+    - _MoveInDirection: 0
+    - _NoiseDetail: -6.29
+    - _OffsetIntensity: 0.02
+    - _ScaleNoise: 1.4
+    - _TessValue: 1
+    - _Tilling: 0.04
+    - __dirty: 0
+    m_Colors:
+    - _Color0: {r: 0, g: 0.3085327, b: 1, a: 0}
+    - _Color1: {r: 0.781132, g: 1.257599, b: 2, a: 0}
+    - _Color2: {r: 0.4094334, g: 0.5934837, b: 1, a: 0}
+    - _Color3: {r: 1, g: 0, b: 0, a: 0}
+    - _Color4: {r: 0.8886285, g: 0, b: 1, a: 0}
+    - _Color5: {r: 0.051886797, g: 0.5413269, b: 1, a: 0}
+    - _Color6: {r: 0.03005788, g: 0, b: 0.6698113, a: 0}
+    - _Color7: {r: 0, g: 0.049295664, b: 1, a: 0}
+    - _EmissionColor: {r: 1, g: 1, b: 1, a: 1}
+    - _FoamColor: {r: 0.3128777, g: 0.4128835, b: 0.745283, a: 0}
+    - _SpeedDots: {r: 0.1, g: 0, b: 0, a: 0}
+    - _SpeedFoam: {r: 0, g: 0.5, b: 0, a: 0}
+    - _SpeedFoam1: {r: 0, g: 0.02, b: 0, a: 0}
+    - _TillingDots: {r: 25, g: 25, b: 0, a: 0}
+    - _TillingFoam: {r: 1, g: 1, b: 0, a: 0}
+    - _TillingFoam1: {r: 1, g: 1, b: 0, a: 0}
+    - _Vector0: {r: 0, g: 1, b: 0, a: 0}
+    - _Vector1: {r: 0, g: 0, b: 3.67, a: 0}
+    - _Vector2: {r: 0, g: 0, b: 1, a: 0}
+    - _Vector3: {r: 1, g: 1, b: 0, a: 0}
+    - _Vector4: {r: 0, g: 0.1, b: 0, a: 0}
+    - _YVertexColor: {r: 0.051263746, g: 0.20163299, b: 0.8490566, a: 1}
+  m_BuildTextureStacks: []

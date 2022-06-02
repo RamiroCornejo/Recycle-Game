@@ -1,0 +1,550 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 58470ff17a7480749b1e7dbff19583b8, type: 3}
+  m_Name: DialogoElBichooo
+  m_EditorClassIdentifier: 
+  allNodes:
+  - myRect:
+      serializedVersion: 2
+      x: 528
+      y: 113
+      width: 150
+      height: 50
+    expandRect:
+      serializedVersion: 2
+      x: 528
+      y: 113
+      width: 300
+      height: 300
+    myName: Base Dialogue
+    minimized: 1
+    baseDialogueSD:
+      dialog:
+        mainText: "Muchas gracias por ayudarme a plantar eso, ahora puedo relajarme
+          a gusto. Aunque quiz\xE1s salga a entrenar."
+        titleText: Hector
+        mySprite: {fileID: 0}
+        spriteDir: 0
+      connect: -1
+    answerDialogueSD:
+      dialog:
+        mainText: 
+        titleText: 
+        mySprite: {fileID: 0}
+        spriteDir: 0
+      answerText: []
+      answerConnection: 
+    actionSD:
+      ID: 0
+      connect: 0
+      nodeName: 
+    requireSD:
+      ID: 0
+      connectA: 0
+      connectB: 0
+      selectedOption: 0
+      nodeName: 
+    delaySD:
+      delayTime: 0
+      connect: 0
+    myType: 0
+    ID: 0
+  - myRect:
+      serializedVersion: 2
+      x: 70
+      y: 183
+      width: 250
+      height: 150
+    expandRect:
+      serializedVersion: 2
+      x: 70
+      y: 183
+      width: 250
+      height: 150
+    myName: IsQuestCompleted
+    minimized: 0
+    baseDialogueSD:
+      dialog:
+        mainText: 
+        titleText: 
+        mySprite: {fileID: 0}
+        spriteDir: 0
+      connect: 0
+    answerDialogueSD:
+      dialog:
+        mainText: 
+        titleText: 
+        mySprite: {fileID: 0}
+        spriteDir: 0
+      answerText: []
+      answerConnection: 
+    actionSD:
+      ID: 0
+      connect: 0
+      nodeName: 
+    requireSD:
+      ID: 1
+      connectA: 0
+      connectB: 4
+      selectedOption: 2
+      nodeName: IsQuestCompleted
+    delaySD:
+      delayTime: 0
+      connect: 0
+    myType: 3
+    ID: 1
+  - myRect:
+      serializedVersion: 2
+      x: 743
+      y: 497
+      width: 150
+      height: 50
+    expandRect:
+      serializedVersion: 2
+      x: 743
+      y: 497
+      width: 300
+      height: 300
+    myName: Base Dialogue
+    minimized: 1
+    baseDialogueSD:
+      dialog:
+        mainText: "El abono lo podes conseguir de la m\xE1quina compostadora que
+          deber\xEDas tener adentro. Con un poco de basura org\xE1nica."
+        titleText: Hector
+        mySprite: {fileID: 0}
+        spriteDir: 0
+      connect: 3
+    answerDialogueSD:
+      dialog:
+        mainText: 
+        titleText: 
+        mySprite: {fileID: 0}
+        spriteDir: 0
+      answerText: []
+      answerConnection: 
+    actionSD:
+      ID: 0
+      connect: 0
+      nodeName: 
+    requireSD:
+      ID: 0
+      connectA: 0
+      connectB: 0
+      selectedOption: 0
+      nodeName: 
+    delaySD:
+      delayTime: 0
+      connect: 0
+    myType: 0
+    ID: 2
+  - myRect:
+      serializedVersion: 2
+      x: 932
+      y: 510
+      width: 300
+      height: 300
+    expandRect:
+      serializedVersion: 2
+      x: 932
+      y: 510
+      width: 300
+      height: 300
+    myName: Base Dialogue
+    minimized: 0
+    baseDialogueSD:
+      dialog:
+        mainText: Acordate de volver conmigo cuando hayas plantado las 5 semillas.
+        titleText: Hector
+        mySprite: {fileID: 0}
+        spriteDir: 0
+      connect: -1
+    answerDialogueSD:
+      dialog:
+        mainText: 
+        titleText: 
+        mySprite: {fileID: 0}
+        spriteDir: 0
+      answerText: []
+      answerConnection: 
+    actionSD:
+      ID: 0
+      connect: 0
+      nodeName: 
+    requireSD:
+      ID: 0
+      connectA: 0
+      connectB: 0
+      selectedOption: 0
+      nodeName: 
+    delaySD:
+      delayTime: 0
+      connect: 0
+    myType: 0
+    ID: 3
+  - myRect:
+      serializedVersion: 2
+      x: 685
+      y: 398
+      width: 150
+      height: 50
+    expandRect:
+      serializedVersion: 2
+      x: 685
+      y: 398
+      width: 250
+      height: 150
+    myName: RequireCompleted
+    minimized: 1
+    baseDialogueSD:
+      dialog:
+        mainText: 
+        titleText: 
+        mySprite: {fileID: 0}
+        spriteDir: 0
+      connect: 0
+    answerDialogueSD:
+      dialog:
+        mainText: 
+        titleText: 
+        mySprite: {fileID: 0}
+        spriteDir: 0
+      answerText: []
+      answerConnection: 
+    actionSD:
+      ID: 0
+      connect: 0
+      nodeName: 
+    requireSD:
+      ID: 2
+      connectA: 10
+      connectB: 2
+      selectedOption: 1
+      nodeName: RequireCompleted
+    delaySD:
+      delayTime: 0
+      connect: 0
+    myType: 3
+    ID: 4
+  - myRect:
+      serializedVersion: 2
+      x: 1162
+      y: 373
+      width: 150
+      height: 50
+    expandRect:
+      serializedVersion: 2
+      x: 1162
+      y: 373
+      width: 300
+      height: 300
+    myName: Base Dialogue
+    minimized: 1
+    baseDialogueSD:
+      dialog:
+        mainText: "\xA1Wow! \xA1En serio lo lograste!"
+        titleText: Hector
+        mySprite: {fileID: 0}
+        spriteDir: 0
+      connect: 7
+    answerDialogueSD:
+      dialog:
+        mainText: 
+        titleText: 
+        mySprite: {fileID: 0}
+        spriteDir: 0
+      answerText: []
+      answerConnection: 
+    actionSD:
+      ID: 0
+      connect: 0
+      nodeName: 
+    requireSD:
+      ID: 0
+      connectA: 0
+      connectB: 0
+      selectedOption: 0
+      nodeName: 
+    delaySD:
+      delayTime: 0
+      connect: 0
+    myType: 0
+    ID: 5
+  - myRect:
+      serializedVersion: 2
+      x: 1903
+      y: 384
+      width: 150
+      height: 50
+    expandRect:
+      serializedVersion: 2
+      x: 1903
+      y: 384
+      width: 250
+      height: 120
+    myName: GetReward
+    minimized: 1
+    baseDialogueSD:
+      dialog:
+        mainText: 
+        titleText: 
+        mySprite: {fileID: 0}
+        spriteDir: 0
+      connect: 0
+    answerDialogueSD:
+      dialog:
+        mainText: 
+        titleText: 
+        mySprite: {fileID: 0}
+        spriteDir: 0
+      answerText: []
+      answerConnection: 
+    actionSD:
+      ID: 0
+      connect: 9
+      nodeName: GetReward
+    requireSD:
+      ID: 0
+      connectA: 0
+      connectB: 0
+      selectedOption: 0
+      nodeName: 
+    delaySD:
+      delayTime: 0
+      connect: 0
+    myType: 2
+    ID: 6
+  - myRect:
+      serializedVersion: 2
+      x: 1523
+      y: 410
+      width: 150
+      height: 50
+    expandRect:
+      serializedVersion: 2
+      x: 1523
+      y: 410
+      width: 300
+      height: 300
+    myName: Base Dialogue
+    minimized: 1
+    baseDialogueSD:
+      dialog:
+        mainText: "Las semillas que yo no logr\xE9 encontrar, vos s\xED. Quiz\xE1s
+          tengas madera para esto."
+        titleText: Hector
+        mySprite: {fileID: 0}
+        spriteDir: 0
+      connect: 8
+    answerDialogueSD:
+      dialog:
+        mainText: 
+        titleText: 
+        mySprite: {fileID: 0}
+        spriteDir: 0
+      answerText: []
+      answerConnection: 
+    actionSD:
+      ID: 0
+      connect: 0
+      nodeName: 
+    requireSD:
+      ID: 0
+      connectA: 0
+      connectB: 0
+      selectedOption: 0
+      nodeName: 
+    delaySD:
+      delayTime: 0
+      connect: 0
+    myType: 0
+    ID: 7
+  - myRect:
+      serializedVersion: 2
+      x: 1711
+      y: 383
+      width: 150
+      height: 50
+    expandRect:
+      serializedVersion: 2
+      x: 1711
+      y: 383
+      width: 300
+      height: 300
+    myName: Base Dialogue
+    minimized: 1
+    baseDialogueSD:
+      dialog:
+        mainText: "Bueno, tom\xE1 algo por las molestias."
+        titleText: Hector
+        mySprite: {fileID: 0}
+        spriteDir: 0
+      connect: 6
+    answerDialogueSD:
+      dialog:
+        mainText: 
+        titleText: 
+        mySprite: {fileID: 0}
+        spriteDir: 0
+      answerText: []
+      answerConnection: 
+    actionSD:
+      ID: 0
+      connect: 0
+      nodeName: 
+    requireSD:
+      ID: 0
+      connectA: 0
+      connectB: 0
+      selectedOption: 0
+      nodeName: 
+    delaySD:
+      delayTime: 0
+      connect: 0
+    myType: 0
+    ID: 8
+  - myRect:
+      serializedVersion: 2
+      x: 2123
+      y: 305
+      width: 300
+      height: 300
+    expandRect:
+      serializedVersion: 2
+      x: 2123
+      y: 305
+      width: 300
+      height: 300
+    myName: Base Dialogue
+    minimized: 0
+    baseDialogueSD:
+      dialog:
+        mainText: "Ahora que est\xE1 todo en su normalidad, puedo hacer abdominales
+          y tomar agua. SIUUUU"
+        titleText: Hector
+        mySprite: {fileID: 0}
+        spriteDir: 0
+      connect: -1
+    answerDialogueSD:
+      dialog:
+        mainText: 
+        titleText: 
+        mySprite: {fileID: 0}
+        spriteDir: 0
+      answerText: []
+      answerConnection: 
+    actionSD:
+      ID: 0
+      connect: 0
+      nodeName: 
+    requireSD:
+      ID: 0
+      connectA: 0
+      connectB: 0
+      selectedOption: 0
+      nodeName: 
+    delaySD:
+      delayTime: 0
+      connect: 0
+    myType: 0
+    ID: 9
+  - myRect:
+      serializedVersion: 2
+      x: 867
+      y: 333
+      width: 150
+      height: 50
+    expandRect:
+      serializedVersion: 2
+      x: 867
+      y: 333
+      width: 250
+      height: 120
+    myName: RequireRemove
+    minimized: 1
+    baseDialogueSD:
+      dialog:
+        mainText: 
+        titleText: 
+        mySprite: {fileID: 0}
+        spriteDir: 0
+      connect: 0
+    answerDialogueSD:
+      dialog:
+        mainText: 
+        titleText: 
+        mySprite: {fileID: 0}
+        spriteDir: 0
+      answerText: []
+      answerConnection: 
+    actionSD:
+      ID: 0
+      connect: 5
+      nodeName: RequireRemove
+    requireSD:
+      ID: 0
+      connectA: 0
+      connectB: 0
+      selectedOption: 0
+      nodeName: 
+    delaySD:
+      delayTime: 0
+      connect: 0
+    myType: 2
+    ID: 10
+  firstNode:
+    myRect:
+      serializedVersion: 2
+      x: 70
+      y: 183
+      width: 250
+      height: 150
+    expandRect:
+      serializedVersion: 2
+      x: 70
+      y: 183
+      width: 250
+      height: 150
+    myName: IsQuestCompleted
+    minimized: 0
+    baseDialogueSD:
+      dialog:
+        mainText: 
+        titleText: 
+        mySprite: {fileID: 0}
+        spriteDir: 0
+      connect: 0
+    answerDialogueSD:
+      dialog:
+        mainText: 
+        titleText: 
+        mySprite: {fileID: 0}
+        spriteDir: 0
+      answerText: []
+      answerConnection: 
+    actionSD:
+      ID: 0
+      connect: 0
+      nodeName: 
+    requireSD:
+      ID: 1
+      connectA: 0
+      connectB: 4
+      selectedOption: 2
+      nodeName: IsQuestCompleted
+    delaySD:
+      delayTime: 0
+      connect: 0
+    myType: 3
+    ID: 1
+  nextDialogue: 0
+  repeatDialogue: 0

@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4b28513b48b97174dace46f92c3fedc5, type: 3}
+  m_Name: Choclo
+  m_EditorClassIdentifier: 
+  name: Choclo masticado
+  pluralName: Choclos masticados
+  element_ID: 3
+  max_stack: 10
+  description: Choclo a medio comer, probablemente no estaba dulce.
+  weight: 1
+  max_quality: 1
+  price: 0.1
+  element_type: 2
+  recycled: 0
+  image: {fileID: 5071306574811042770, guid: 668deb4e34bbe094f95696021fe555e4, type: 3}
+  world_model: {fileID: 0}
+  equipable_model: {fileID: 5911903736159808735, guid: aa53a4e66751f0b43855947e90e804c1, type: 3}

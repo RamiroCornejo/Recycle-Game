@@ -1,0 +1,79 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &2627423124829158
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 5830925173455854520, guid: 77af876011ad49846b686e5385e9997b, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5830925173455854520, guid: 77af876011ad49846b686e5385e9997b, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -10.791
+      objectReference: {fileID: 0}
+    - target: {fileID: 5830925173455854520, guid: 77af876011ad49846b686e5385e9997b, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.65
+      objectReference: {fileID: 0}
+    - target: {fileID: 5830925173455854520, guid: 77af876011ad49846b686e5385e9997b, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -7.13
+      objectReference: {fileID: 0}
+    - target: {fileID: 5830925173455854520, guid: 77af876011ad49846b686e5385e9997b, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5830925173455854520, guid: 77af876011ad49846b686e5385e9997b, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5830925173455854520, guid: 77af876011ad49846b686e5385e9997b, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5830925173455854520, guid: 77af876011ad49846b686e5385e9997b, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5830925173455854520, guid: 77af876011ad49846b686e5385e9997b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5830925173455854520, guid: 77af876011ad49846b686e5385e9997b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5830925173455854520, guid: 77af876011ad49846b686e5385e9997b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5830925173455854530, guid: 77af876011ad49846b686e5385e9997b, type: 3}
+      propertyPath: bar
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 5830925173455854530, guid: 77af876011ad49846b686e5385e9997b, type: 3}
+      propertyPath: elementToRepresent
+      value: 
+      objectReference: {fileID: 11400000, guid: 4683bbc694d31c84dbf64428f23be6b5, type: 2}
+    - target: {fileID: 5830925173455854530, guid: 77af876011ad49846b686e5385e9997b, type: 3}
+      propertyPath: probability_to_dry
+      value: 55
+      objectReference: {fileID: 0}
+    - target: {fileID: 5830925173455854530, guid: 77af876011ad49846b686e5385e9997b, type: 3}
+      propertyPath: probability_to_dirty
+      value: 64
+      objectReference: {fileID: 0}
+    - target: {fileID: 5830925173455854531, guid: 77af876011ad49846b686e5385e9997b, type: 3}
+      propertyPath: m_Name
+      value: HittableGlovesLata Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 5893212723246189338, guid: 77af876011ad49846b686e5385e9997b, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 8426850544802929564, guid: 668deb4e34bbe094f95696021fe555e4, type: 3}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 77af876011ad49846b686e5385e9997b, type: 3}

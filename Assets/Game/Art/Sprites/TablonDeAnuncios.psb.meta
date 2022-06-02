@@ -1,0 +1,446 @@
+fileFormatVersion: 2
+guid: b25a53298528be34fb35a2721ab13997
+ScriptedImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3417244740381325439
+    second: TablonDeAnuncios_0
+  - first:
+      213: -6085081490512626233
+    second: TablonDeAnuncios_1
+  - first:
+      213: 9035192133079180318
+    second: TablonDeAnuncios_2
+  - first:
+      213: -8000373392316090636
+    second: TablonDeAnuncios_3
+  - first:
+      213: -3799001288293614123
+    second: TablonDeAnuncios_4
+  - first:
+      213: 2340315001632688216
+    second: TablonDeAnuncios_5
+  - first:
+      213: 7200876272655680671
+    second: TablonDeAnuncios_6
+  - first:
+      213: 3417244740381325439
+    second: TablonDeAnuncios_0
+  - first:
+      213: -6085081490512626233
+    second: TablonDeAnuncios_1
+  - first:
+      213: 9035192133079180318
+    second: TablonDeAnuncios_2
+  - first:
+      213: -8000373392316090636
+    second: TablonDeAnuncios_3
+  - first:
+      213: -3799001288293614123
+    second: TablonDeAnuncios_4
+  - first:
+      213: 2340315001632688216
+    second: TablonDeAnuncios_5
+  - first:
+      213: 7200876272655680671
+    second: TablonDeAnuncios_6
+  - first:
+      213: -6952345976780217273
+    second: TablonDeAnuncios_7
+  - first:
+      213: 6631963770577882999
+    second: TablonDeAnuncios_8
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: b2a9591990af98743ba3ff7cf1000886, type: 3}
+  textureImporterSettings:
+    alphaSource: 1
+    mipMapMode: 0
+    enableMipMap: 1
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+    convertToNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    isReadable: 0
+    streamingMipmaps: 1
+    streamingMipmapsPriority: 0
+    vTOnly: 0
+    nPOTScale: 1
+    sRGBTexture: 1
+    spriteMode: 2
+    spriteExtrude: 1
+    spriteMeshType: 1
+    alignment: 0
+    spritePivot: {x: 0.5, y: 0.5}
+    spritePixelsToUnits: 100
+    spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+    spriteGenerateFallbackPhysicsShape: 0
+    generateCubemap: 6
+    cubemapConvolution: 0
+    seamlessCubemap: 0
+    alphaIsTransparency: 1
+    spriteTessellationDetail: -1
+    textureType: 8
+    textureShape: 1
+    singleChannelComponent: 0
+    flipbookRows: 0
+    flipbookColumns: 0
+    ignorePngGamma: 0
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 0
+    wrapV: 0
+    wrapW: 0
+    normalMap: 0
+    textureFormat: 0
+    maxTextureSize: 0
+    lightmap: 0
+    compressionQuality: 0
+    linearTexture: 0
+    grayScaleToAlpha: 0
+    rGBM: 0
+    cubemapConvolutionSteps: 0
+    cubemapConvolutionExponent: 0
+    maxTextureSizeSet: 0
+    compressionQualitySet: 0
+    textureFormatSet: 0
+    applyGammaDecoding: 0
+  spriteImportData:
+  - name: 
+    originalName: 
+    pivot: {x: 0, y: 0}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    spriteID: 
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 0, y: 0}
+  mosaicSpriteImportData: []
+  rigSpriteImportData:
+  - name: TablonDeAnuncios_0
+    originalName: 
+    pivot: {x: 0, y: 0}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 1092
+      width: 983
+      height: 941
+    spriteID: f78300d6cfd7c6f20800000000000000
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 4, y: 1092}
+  - name: TablonDeAnuncios_1
+    originalName: 
+    pivot: {x: 0, y: 0}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 995
+      y: 1092
+      width: 630
+      height: 438
+    spriteID: 7cdb0b0ef927d8ba0800000000000000
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 995, y: 1092}
+  - name: TablonDeAnuncios_2
+    originalName: 
+    pivot: {x: 0, y: 0}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1633
+      y: 1398
+      width: 8
+      height: 7
+    spriteID: e14a691ef53736d70800000000000000
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 1633, y: 1398}
+  - name: TablonDeAnuncios_3
+    originalName: 
+    pivot: {x: 0, y: 0}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1671
+      y: 1329
+      width: 181
+      height: 157
+    spriteID: 4f6338899c6f8f090800000000000000
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 1671, y: 1329}
+  - name: TablonDeAnuncios_4
+    originalName: 
+    pivot: {x: 0, y: 0}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1860
+      y: 1318
+      width: 179
+      height: 201
+    spriteID: 5ddf10ec47c374bc0800000000000000
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 1860, y: 1318}
+  - name: TablonDeAnuncios_5
+    originalName: 
+    pivot: {x: 0, y: 0}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1633
+      y: 1092
+      width: 227
+      height: 228
+    spriteID: 85885de28187a7020800000000000000
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 1633, y: 1092}
+  - name: TablonDeAnuncios_6
+    originalName: 
+    pivot: {x: 0, y: 0}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1868
+      y: 1092
+      width: 170
+      height: 200
+    spriteID: f944e2f61d6aee360800000000000000
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 1868, y: 1092}
+  - name: TablonDeAnuncios_7
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4
+      width: 1633
+      height: 1080
+    spriteID: 74426625b2e448f90800000000000000
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 4, y: 4}
+  - name: TablonDeAnuncios_8
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1646
+      y: 5
+      width: 154
+      height: 187
+    spriteID: 77f0e8469e7790c50800000000000000
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 1646, y: 5}
+  platformSettings:
+  - name: DefaultTexturePlatform
+    overridden: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  - name: Standalone
+    overridden: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  mosaicLayers: 1
+  documentPivot: {x: 0, y: 0}
+  documentAlignment: 7
+  importHiddenLayers: 0
+  importedTextureWidth: 2048
+  importedTextureHeight: 2048
+  documentSize: {x: 1634, y: 1080}
+  paperDollMode: 0
+  keepDupilcateSpriteName: 0
+  spriteCategoryList:
+    categories: []
+  textureActualWidth: 2048
+  textureActualHeight: 2048
+  spritePackingTag: 
+  resliceFromLayer: 0
+  characterMode: 1
+  mosaicPSDLayers: []
+  rigPSDLayers:
+  - name: Linea
+    spriteName: Linea
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 5a8c77e7f379f314cb787db15e865289
+    layerID: 37
+    mosaicPosition: {x: 4, y: 1092}
+  - name: tele
+    spriteName: tele
+    isGroup: 0
+    parentIndex: -1
+    spriteID: e664adf1e92f5fb41b162b54c0f46615
+    layerID: 39
+    mosaicPosition: {x: 995, y: 1092}
+  - name: Tito
+    spriteName: Tito
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 4ecb77ce44248c64e88345df5841de3a
+    layerID: 22
+    mosaicPosition: {x: 1646, y: 407}
+  - name: Hector
+    spriteName: Hector
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 8a67c4e0cc734c047bfe73fe50b3bba9
+    layerID: 23
+    mosaicPosition: {x: 1646, y: 4}
+  - name: Chula
+    spriteName: Chula
+    isGroup: 0
+    parentIndex: -1
+    spriteID: d47e8acdeabb24d4dbf983f430a5d8fe
+    layerID: 25
+    mosaicPosition: {x: 1646, y: 230}
+  - name: Elena
+    spriteName: Elena
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 175f6c0aa70483342ab750b9a75f8c32
+    layerID: 26
+    mosaicPosition: {x: 1646, y: 616}
+  - name: Pedro
+    spriteName: Pedro
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 6d1081658ec27e0458591cd10a5ecf11
+    layerID: 36
+    mosaicPosition: {x: 1881, y: 4}
+  - name: Cartel
+    spriteName: Cartel
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 7b1dc641ffb5ee243892c021d9577e42
+    layerID: 3
+    mosaicPosition: {x: 4, y: 4}
+  characterData:
+    bones: []
+    parts: []
+    dimension: {x: 0, y: 0}
+    characterGroups: []
+  generateGOHierarchy: 1
+  textureAssetName: TablonDeAnuncios Texture
+  prefabAssetName: TablonDeAnuncios Prefab
+  spriteLibAssetName: TablonDeAnuncios Sprite Lib
+  secondarySpriteTextures: []

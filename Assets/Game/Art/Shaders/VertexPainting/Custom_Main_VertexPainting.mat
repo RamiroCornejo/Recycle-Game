@@ -1,0 +1,81 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Custom_Main_VertexPainting
+  m_Shader: {fileID: 4800000, guid: 092b62dd03260644d860cbb081ba6d14, type: 3}
+  m_ShaderKeywords: _CUSTOMNOISE_ON
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _BlackChannel:
+        m_Texture: {fileID: 2800000, guid: 9eec7935255e7a64499e0404595ad117, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _BlueChannel:
+        m_Texture: {fileID: 2800000, guid: c1a8a251b16bd5a45a91b9086c2398c1, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _GreenChannel:
+        m_Texture: {fileID: 2800000, guid: 9eec7935255e7a64499e0404595ad117, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Noise:
+        m_Texture: {fileID: 2800000, guid: cf07e930ec959104b83ad3aee6d30f5a, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _RedChannel:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _TopTexture0:
+        m_Texture: {fileID: 2800000, guid: 4688b844babdc6d4a86fe6c4eae1d366, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _TopTexture1:
+        m_Texture: {fileID: 2800000, guid: 0c80cb79a41710d4388f0756e718987c, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _TopTexture2:
+        m_Texture: {fileID: 2800000, guid: 739de7b76130c354f8b38ebd401bb811, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _TopTexture3:
+        m_Texture: {fileID: 2800000, guid: 296ce6fdc7bd7e04d8e94d3b7040a4e2, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Yellow:
+        m_Texture: {fileID: 2800000, guid: 7e5bd11bd4979cd4ca49b59e8ffe1896, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _texcoord:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _AlphaCutoff: 0.5
+    - _CustomNoise: 1
+    - _Float0: 0.1
+    - _Float1: 1.46
+    - _LimitPos: -0.09
+    - _LineSize: 0.94
+    - _NoiseIntensity: 0.154
+    - _PosterizeStepsTextures: 10.49
+    - _ScaleNoise: 6.59
+    - __dirty: 0
+    m_Colors:
+    - _Color0: {r: 1.2107159, g: 1.2107159, b: 1.2107159, a: 0}
+    - _EmissionColor: {r: 1, g: 1, b: 1, a: 1}
+    - _TillingTextures: {r: 4, g: 4, b: 0, a: 0}
+  m_BuildTextureStacks: []

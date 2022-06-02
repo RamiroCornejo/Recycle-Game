@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4b28513b48b97174dace46f92c3fedc5, type: 3}
+  m_Name: Botella de jugo
+  m_EditorClassIdentifier: 
+  name: Jugo
+  pluralName: Jugos
+  element_ID: 20
+  max_stack: 10
+  description: "Jugo especial para un d\xEDa caluroso en verano."
+  weight: 1
+  max_quality: 0
+  price: 0
+  element_type: 5
+  recycled: 0
+  image: {fileID: 21300000, guid: 3989088f18c195545ab8d09148b8e417, type: 3}
+  world_model: {fileID: 0}
+  equipable_model: {fileID: 0}
